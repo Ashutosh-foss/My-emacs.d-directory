@@ -1,0 +1,4 @@
+;;; .emms-cache -*- mode: emacs-lisp; coding: utf-8; -*-
+(puthash "/home/nidish_ubuntu1604/Music/Aishwarya_He_Govinda_He_Gopala.mp4" '(*track* (type . file) (name . "/home/nidish_ubuntu1604/Music/Aishwarya_He_Govinda_He_Gopala.mp4") (metadata) (info-mtime 22514 45330 137656 927000) (last-played 22539 35230 505050 919000) (play-count . 9)) emms-cache-db)
+(puthash "/home/nidish_ubuntu1604/Music/Ariyakudi_Kuthu_Vilakkeriya.mp4" '(*track* (type . file) (name . "/home/nidish_ubuntu1604/Music/Ariyakudi_Kuthu_Vilakkeriya.mp4") (metadata) (info-mtime 22490 60092 232164 404000) (last-played 22539 35276 908138 297000) (play-count . 3)) emms-cache-db)
+(puthash "/home/nidish_ubuntu1604/Music/KVN_Mokshamu_Galada.mp3" '(*track* (type . file) (name . "/home/nidish_ubuntu1604/Music/KVN_Mokshamu_Galada.mp3") (metadata) (last-played 22539 35372 12185 752000) (play-count . 3) (info-mtime 22282 18538 707566 346000)) emms-cache-db)

@@ -1,0 +1,128 @@
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+cd ..
+cd ostrstream/
+make Main
+make Main
+make Main
+make Main
+make Main
+make Main
+make Main
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+make Main
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+make Main
+make Main
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+make Main
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+make Main
+./Main 
+exit
+cd ..
+cd ..
+cd ..
+cd Development/
+ls
+cd Development_Files/
+ls
+cd ..
+ls
+cd include/
+ls
+cd ..
+less Makefile 
+cd src/
+ls
+ls ../include/
+exit
+cd
+cd Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Flight_Mechanics/
+ls
+cd Flight_expmt/
+ls
+cd calcs/
+ls
+unrar-free B5.rar 
+ls
+cd B5/
+ls
+cd data_separated/
+ls
+eog *jpg
+ls
+cd ..
+ls
+cd data_full/
+;s
+ls
+eog *
+ls
+cd ..
+ls
+cd ..
+l
+ls
+rm * -r
+exit
+ls
+unrar-free B5.rar 
+ls
+cd B5/
+ls
+cd data_separated/
+ls
+eog *
+ls
+cd ..
+ls
+exit
+ls
+cd Figs/
+ls
+eog Fligh_path.jpg 
+eog 01.JPG 
+mv 01.JPG gps.jpg
+exit
+ls
+exit

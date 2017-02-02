@@ -1,0 +1,363 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/usr/share/maxima/5.37.2/" . "emacs/")
+ ("/usr/share/maxima/" . "5.37.2/")
+ ("/usr/" . "share/")
+ ("/" . "usr/")
+ ("/home/nidish_ubuntu1604/Software_Tools/rtags/" . "src/")
+ ("/home/nidish_ubuntu1604/.emacs.d/elpa/" . "rtags-20170121.2345/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/" . "Codes/")
+ ("/home/nidish_ubuntu1604/Documents/Chegg/Ten/" . "Code/")
+ ("/home/nidish_ubuntu1604/Development/" . "lib/")
+ ("/home/nidish_ubuntu1604/Documents/ADCS_PRIYA_CODES/Modular/" . "src/")
+ ("/home/nidish_ubuntu1604/Documents/ADCS_PRIYA_CODES/" . "Modular/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/" . "include/")
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/Presentations/3. Introduction to Scientific Computing with Linux/II. Basic Tools/" . "Emacs/")
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/" . "Presentations/")
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/" . "IISTFOSS/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Reports/Reynolds_Equation/" . "Figs/")
+ ("/home/" . "nidish_ubuntu1604/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Reports/" . "Reynolds_Equation/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/DrGantasala/Recieved1/" . "code/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/DrGantasala/" . "Recieved1/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/" . "Shaft_FEM/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/Dr_San_Andres/" . "Lectures/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/" . "DrGantasala/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/" . "Codes/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/" . "Final_Project/")
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Statement_Of_Purpose/SOP_Full/" . "Corrections/")
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/" . "Resume/")
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/" . "Georgia/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/BVP/" . "2D/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/Diff_Mx/" . "Cheb_Spec/")
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/" . "BVP/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Henon_Heiles/PS/" . "Data/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Project/Presentations/" . "Review_Aug25/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Henon_Heiles/" . "PS/")
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Gradesheets/" . "Summary/")
+ ("/home/nidish_ubuntu1604/Documents/Chegg/" . "Ten/")
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Statement_Of_Purpose/" . "SOP_Full/")
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/" . "Univ_wise/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/Mini_Robot/Python_Scripts/" . "Inverse_Kinem/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/Mini_Robot/" . "Python_Scripts/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/Aristo/" . "Python_Scripts/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/" . "Mini_Robot/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Propulsion_Lab/Axial_Flow_Turbine/" . "calcs/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Propulsion_Lab/Ramjet/" . "AbstIntro/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Project/Mission_Design/" . "References/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Space_Mission_Design_and_Optimization/Assignment2/" . "Scripts/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Miniproject_1/Codes/Prelims/OpenCV/TUTORIAL/" . "Thresh/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Miniproject_1/Codes/Prelims/OpenCV/" . "TUTORIAL/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Miniproject_1/Codes/Prelims/" . "OpenCV/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Miniproject_1/Codes/" . "Prelims/")
+ ("/home/nidish_ubuntu1604/" . ".emacs.d/")
+ ("/home/nidish_ubuntu1604/Documents/Software_Familiarization/OpenCV/" . "ROI/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Data_Structures_and_DBMS/Assignments/Num3_Red-Black_Trees/Code/Modular/" . "build/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Data_Structures_and_DBMS/Assignments/Num3_Red-Black_Trees/Code/" . "Modular/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Data_Structures_and_DBMS/Assignments/Num3_Red-Black_Trees/" . "Code/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Data_Structures_and_DBMS/Assignments/" . "Num3_Red-Black_Trees/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Cartesan/" . "Full/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/" . "Calibration/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Miniproject_1/" . "Codes/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Miniproject_1/Codes/Final/" . "Full/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Data_Structures_and_DBMS/" . "Assignments/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Codes/HBM-Generic/HEBM_1dof/Build/Linear_Harmonic/Final/" . "Figs/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Paper_Form/latex/Data_Plots/" . "Grayscale/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Paper_Form/latex/" . "Data_Plots/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Codes/HBM-Generic/HEBM_1dof/Build/Linear_Harmonic/" . "Final/")
+ ("/home/nidish_ubuntu1604/.emacs.d/" . "elpa/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Paper_Form/" . "latex/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/" . "Paper_Form/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Propulsion_Lab/CD_Nozzle/" . "Theory/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Propulsion_Lab/" . "CD_Nozzle/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/" . "Propulsion_Lab/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Cable_Abrasion/" . "Report/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Advanced_Fluid_Mechanics/" . "Assignments/")
+ ("/home/nidish_ubuntu1604/Documents/Software_Familiarization/" . "OpenCV/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Project/" . "PRESENTATION/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/" . "Project_Files/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Mobile_Robot/" . "Report/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/" . "Cycle2/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/" . "Lab/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/RotorDynamics/" . "References/")
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/" . "Journal_Bearing/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Space_Mission_Design_and_Optimization/" . "Assignment2/")
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/" . "Aerospace_Vehicle_Design/")
+ ("/home/nidish_ubuntu1604/Documents/" . "8th_Semester/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/include/"
+ "/home/nidish_ubuntu1604/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/src/"
+ "/home/nidish_ubuntu1604/.emacs.d/elpa/rtags-20170121.2345/"
+ "/home/nidish_ubuntu1604/Software_Tools/rtags/src/"
+ "/home/nidish_ubuntu1604/Software_Tools/rtags/"
+ "/home/nidish_ubuntu1604/Software_Tools/rtags/build/"
+ "/home/nidish_ubuntu1604/.emacs.d/elpa/cmake-ide-20170130.451/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Reynolds_Equation/"
+ "/home/nidish_ubuntu1604/.emacs.d/elpa/flycheck-pyflakes-20140630.1521/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Formulation/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Organization/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/lib/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/"
+ "/home/nidish_ubuntu1604/Documents/Chegg/Ten/Code/"
+ "/home/nidish_ubuntu1604/Downloads/"
+ "/home/nidish_ubuntu1604/Development/lib/"
+ "/home/nidish_ubuntu1604/Development/src/"
+ "/home/nidish_ubuntu1604/Development/"
+ "/home/nidish_ubuntu1604/Documents/ADCS_PRIYA_CODES/Modular/src/"
+ "/home/nidish_ubuntu1604/Documents/ADCS_PRIYA_CODES/Modular/"
+ "/home/nidish_ubuntu1604/Documents/Chegg/Nine/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Reports/Reynolds_Equation/"
+ "/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/Presentations/3. Introduction to Scientific Computing with Linux/II. Basic Tools/Emacs/"
+ "/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/Presentations/3. Introduction to Scientific Computing with Linux/II. Basic Tools/LaTeX/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Georgia/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/Resume/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Resume/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/BVP/2D/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/2D_Wave/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/DrGantasala/Recieved1/code/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/DrGantasala/Recieved1/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Prospects/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/DrGantasala/"
+ "/home/nidish_ubuntu1604/.emacs.d/scilab-mode/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/Personal_Statement/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/Academic_Statement_Of_Purpose/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Statement_Of_Purpose/SOP_Full/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/1D_Wave/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/BVP/1D/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/Wave/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/Diff_Mx/Cheb_Spec/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/DFT/"
+ "/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/Diff_Mx/"
+ "/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Henon_Heiles/PS/Data/"
+ "/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Project/Presentations/Review_Aug25/"
+ "/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Henon_Heiles/EOM/"
+ "/home/nidish_ubuntu1604/Documents/Research_Work/Journal_Bearing/"
+ "/home/nidish_ubuntu1604/Documents/Higher_Studies/Gradesheets/Summary/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "Main.cpp"
+ "flycheck-rtags.el"
+ "System.cpp"
+ "System.hpp"
+ "rdm.cpp"
+ "CMakeLists.txt"
+ "CMakeCache.txt"
+ "cmake-ide.el"
+ "Main.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/nidish_ubuntu1604/.emacs.d/elpa/cmake-ide-20170130.451/" (22673 52858 72074 716000) "cmake-ide-pkg.elc" "cmake-ide-autoloads.el~" "cmake-ide-pkg.el" "cmake-ide.el" "cmake-ide.el~" "../" "./" "cmake-ide-autoloads.el")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/" (22673 37672 308028 19000) "build/" "CMakeLists.txt~" "include/" "CMakeLists.txt" ".dir-locals.el" ".dir-locals.el~" "src/" "lib/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/src/" (22673 46343 360082 597000) "CMakeLists.txt~" "CMakeLists.txt" "Main.cpp" "#Main.cpp#" "Main.cpp~" "compile_commands.json" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/include/" (22673 34532 792117 314000) "System.cpp" "System.hpp~" "System~" "System.cpp~" "../" "./" "System.hpp")
+
+ ("/home/nidish_ubuntu1604/" (22673 37412 364021 58000) ".eclipse/" ".dmrc" "tmp/" "Downloads/" "Desktop/" ".swt/" ".parallel/" ".android/" "Android/" ".w3m/" ".sudo_as_admin_successful" ".gconf/" ".gnome2_private/" ".xsession-errors.old" ".Scilab/" "maxout.gnuplot_pipes" ".emacs~" "Motor.org" ".ICEauthority" "..latexmkrc.un~" ".AndroidStudio2.0/" "Pictures/" ".droidcam/" "mysw/" ".xmodmap-Yantra2.BAK" ".nano/" "auto/" "Latex-Extensions/" "Videos/" ".gnuplot_history" ".sane/" "Development/" ".ddd/" ".ros/" "try/" "maxout_1.eps" ".astkrc/" "Documents/" "mnt/" ".gnus" ".fltk/" ".gnus~" "life.org_archive" "warmup" ".thumbnails/" "life.org" "Music/" ".sada.swp" ".bashrc~" ".octave_hist" "netgen.prof" ".vim/" "sada~" "transpose-frame/" "Tisean/" "R/" "life.org~" "Python_Modules/" "Software_Tools/" ".gksu.lock" "Timesheet/" "Templates/" ".esd_auth" ".compiz/" "GNUstep/" ".emacs.d/" ".uml/" ".enthought/" "Octave Packages/" "fnret.m" "Drivers/" ".kde/" ".ipython/" ".java/" ".viminfo" ".festival_history" ".mozilla/" "sada" ".sada.un~" ".macromedia/" ".dbus/" ".gstreamer-0.10/" "..emacs.un~" "SystemUtils/" ".gradle/" ".octave_packages" ".bash_logout" ".thunderbird/" ".newsrc-dribble" ".equalx/" ".pki/" ".texmf-var/" "examples.desktop" ".aspell.en.pws" ".gnome2/" ".cache/" ".xmodmap-Yantra2" "Motor.csv" ".adobe/" "Telegram/" ".xdvirc" "Libraries/" ".projectl/" ".lesshst" ".gnuplot-wxt" ".gnome/" "maxout.gnuplot" "latexmkrc" "drvrs" ".julia_history" "missfont.log" ".gimp-2.8/" "OS/" "flasheur/" ".FreeCAD/" "Mail/" ".latexmkrc" ".oracle_jre_usage/" "Motor.org~" ".infinote-records/" ".fgo/" ".synaptic/" ".emacs" ".mysql_history" ".astkrc_salomemeca_2016.0/" ".config/" "octave/" ".fft.log" ".gmshrc" ".vimrc" ".cmake/" ".gvfs/" ".aspell.en.prepl" "News/" ".xournal/" ".wxMaxima" "tracker/" "diary" ".wine/" "a.out" ".newsrc-dribble~" ".Xauthority" "Emacs_Extensions/" ".audacity-data/" ".gnupg/" ".rpmdb/" "Android-Studio/" ".bash_history" "..bashrc.un~" ".signature" "../" "octave-workspace" "diary~" "msc/" "./" ".gphoto/" ".selected_editor" ".zotero/" ".xsession-errors" ".xapers/" ".openshot/" ".local/" ".latexmkrc~" "salome_meca/" ".authinfo" ".profile" ".python_history" "Public/" "OpenFOAM/" ".bashrc" ".arduino/" ".gnucash/")
+
+ ("/usr/share/maxima/5.37.2/emacs/" (22341 20027 508921 203000) "emaxima.el" "maxima-font-lock.el" "imaxima.lisp" "imaxima.el" "../" "maxima.el" "setup-imaxima-imath.el" "imath.el" "./" "emaxima.lisp" "smart-complete.el" "bookmode.el" "sshell.el" "imaxima-autoconf-variables.el")
+
+ ("/usr/share/maxima/5.37.2/" (22341 20027 540921 454000) "emacs/" "doc/" "../" "demo/" "./" "share/")
+
+ ("/usr/share/maxima/" (22315 21396 21572 670000) "../" "5.37.2/" "./")
+
+ ("/usr/share/" (22672 44244 896041 746000) "mlt/" "mimelnk/" "boost-build/" "texmf/" "gnome-vpn-properties/" "orca/" "apport/" "resolvconf/" "pnm2ppa/" "polkit-1/" "maven-repo/" "libaudio2/" "gnome-bluetooth/" "gtksourceview-2.0/" "lua/" "example-content/" "mpi-default-dev/" "gutenprint/" "opencv/" "gnome-settings-daemon/" "perl/" "w3m/" "apps/" "zeitgeist/" "pyshared/" "knotifications5/" "librarian/" "emacs/" "chromium-browser/" "accounts/" "gdm/" "libgphoto2/" "libparse-debianchangelog-perl/" "GraphicsMagick-1.3.23/" "a11y-profile-manager/" "system-config-printer/" "nemo/" "build-essential/" "gobject-introspection-1.0/" "genpy/" "file/" "tabset/" "gst-plugins-base/" "gtk-engines/" "wxMaxima/" "kf5/" "terminfo/" "Coin/" "gnome-common/" "goffice/" "seahorse/" "mobile-broadband-provider-info/" "iptables/" "gnuplot5/" "gapi-3.0/" "catkin/" "wordnet/" "systemd/" "unity-tweak-tool/" ".mono/" "zenity/" "lintian/" "libthai/" "plasma/" "libnm-gtk/" "rospy/" "graphviz/" "perl5/" "systemtap/" "python-apt/" "deja-dup/" "glib-2.0/" "xournal/" "libgnomekbd/" "distro-info/" "openscad/" "config.kcfg/" "ubuntu-release-upgrader/" "fonts/" "java/" "julia/" "console-setup/" "ksh/" "texmaker/" "calendar/" "acpi-support/" "onboard/" "backgrounds/" "kservices5/" "liblouisutdml/" "xml/" "gnome-settings-daemon-3.0/" "tex-common/" "dotnet/" "gettext/" "libexttextcat/" "locales/" "gvfs/" "pam/" "nux/" "genius/" "lightdm/" "libtool/" "package-data-downloads/" "guile/" "unity/" "unity-scopes/" "rsyslog/" "mousetweaks/" "gksu/" "yelp-xsl/" "gwenhywfar/" "anyremote/" "cmake-3.5/" "mime-info/" "unity-webapps/" "libmate-desktop/" "mypaint/" "vim/" "emacs24/" "jackd/" "ddd/" "docutils/" "columbus1/" "insserv/" "media-player-info/" "doc/" "cogl/" "intltool/" "roslaunch/" "aspell/" "awk/" "rosbash/" "pkgconfig/" "geoclue-providers/" "python/" "bash-completion/" "debhelper/" "git-core/" "djvu/" "fontconfig/" "gnome-mahjongg/" "boostbook/" "ibus/" "branding/" "texinfo/" "poppler/" "libofx6/" "gtk-doc/" "fop/" "snmp/" "man-db/" "yelp/" "gconf/" "xsane/" "audacity/" "session-migration/" "qemu/" "rosclean/" "mat/" "qtchooser/" "language-support/" "rosnode/" "alsa/" "dbus-1/" "automake-1.15/" "gnome-user-share/" "man/" "webkitgtk-1.0/" "update-notifier/" "grub/" "gnupg2/" "omf/" "llvm-3.8/" "gir-1.0/" "update-manager/" "xflr5/" "libmypaint/" "gnome-software/" "pkg-config-crosswrapper" "rubygems-integration/" "octave/" "synaptic/" "openal/" "ubufox/" "qt4/" "pstoedit/" "stellarium/" "nano/" "gnome-shell/" "cli-common/" "gnucash/" "compiz/" "evince/" "xsessions/" "remmina/" "gitk/" "texlive/" "oce-0.17/" "nmap/" "compizconfig/" "gcj/" "gnome-maps/" "totem/" "gnome-control-center/" "xdiagnose/" "hwdata/" "ubuntu/" "consolefonts/" "os-prober/" "indicators/" "rosmsg/" "unity-settings-daemon/" "dnsmasq-base/" "gdb/" "cmus/" "file-roller/" "base-passwd/" "enchant/" "sysprof/" "click/" "debootstrap/" "locale/" "im-config/" "mono/" "rosservice/" "aclocal/" "application-registry/" "activity-log-manager/" "app-install/" "xfig/" "gimp/" "sysv-rc/" "intltool-debian/" "gobby-0.5/" "gnome-video-effects/" "gnome-mines/" "rosbag/" "marble/" "intel-gpu-tools/" "mozilla/" "adium/" "brltty/" "base-files/" "unity-control-center/" "colord/" "vte/" "apturl/" "unrar-free/" "gcc-5/" "foo2zjs/" "plainbox-providers-1/" "gettext-0.19.7/" "gnome-chess/" "libquvi-scripts/" "kstyle/" "info/" "gcr-3/" "mime/" "cowsay/" "foo2qpdl/" "debianutils/" "maxima/" "locale-langpack/" "usb-creator/" "m17n/" "icedtea-web/" "gnupg/" "gtk-3.0/" "usb_modeswitch/" "ppp/" "libreoffice/" "zoneinfo/" "games/" "secureboot/" "proj/" "color-schemes/" "python3/" "binfmts/" "referencer/" "applications/" "mysql-common/" "app-info/" "ccsm/" "pixmaps/" "checkbox-converged/" "screen/" "telepathy/" "aclocal-1.15/" "idl/" "help-langpack/" "hunspell/" "libimage-exiftool-perl/" "wx-3.0-gtk/" "libffado2/" "bug/" "consoletrans/" "ndisgtk/" "joe/" "directfb-1.2.10/" "unattended-upgrades/" "pygtk/" "desktop-directories/" "color/" "doc-base/" "sgml-data/" "wine/" "ghostscript/" "xpad/" "debsig/" "thumbnailers/" "icu/" "cinnamon/" "readline/" "mysql/" "aglfn/" "openmpi/" "gitweb/" "nautilus-share/" "vino/" "rosgraph/" "software-properties/" "eog/" "gtksourceview-3.0/" "gnome-session/" "gstreamer-1.0/" "misc/" "pkg-config-dpkghook" "python3-plainbox/" "emoticons/" "liblangtag/" "popularity-contest/" "language-selector/" "rostopic/" "dictionaries-common/" "gpaint/" "aqbanking/" "themes/" "sgml-base/" "po-debconf/" "gnuplot/" "speech-dispatcher/" "pam-configs/" "libnma/" "GeoIP/" "bluewho/" "ibus-table/" "zsh/" "pavucontrol/" "java-package/" "midi/" "xpdf/" "gdal/" "gedit/" "matplotlib/" "p11-kit/" "arduino/" "plainbox-provider-checkbox/" "adduser/" "shotwell/" "metacity/" "appdata/" "ufw/" "keyrings/" "freecad/" "javascript/" "ppd/" "devhelp/" "projectM/" "upstart/" "eom/" "bison/" "elmersolver/" "alsa-base/" "webbrowser-app/" "libgweather/" "festival/" "plainbox-provider-resource-generic/" "xml-core/" "movit/" "sgml/" "tcltk/" "dns/" "indicator-power/" "hal/" "mate-about/" "help/" "rosout/" "libwacom/" "gnome-online-accounts/" "kxmlgui5/" "clang/" "qjackctl/" "numpy/" "apparmor/" "MateConf/" "GConf/" "common-licenses/" "QtCurve/" "linux-sound-base/" "dh-python/" "figlet/" "avahi/" "icons/" "gnome-background-properties/" "debconf/" "java-wrappers/" "url-dispatcher/" "hyphen/" "wayland/" "sane/" "X11/" "genmsg/" "mythes/" "cups/" "indicator-application/" "artha/" "liblouis/" "content-hub/" "i18n/" "OpenCV/" "kde4/" "kservicetypes5/" "evolution-data-server/" "gnome/" "xserver-xorg/" "librevenge/" "et/" "libsensors4/" "gnome-tweak-tool/" "notify-osd/" "pulseaudio/" "initramfs-tools/" "menu/" "myspell/" "sounds/" "hplip/" "rhythmbox/" "accountsservice/" "ssl-cert/" "ca-certificates/" "gnome-sudoku/" "aisleriot/" "unity-greeter/" "plymouth/" "libc-bin/" "vlc/" "gnome-2.0/" "ubuntu-drivers-common/" "xgreeters/" "nm-applet/" "qt5/" "z88/" "transmission/" "openshot/" "kdevappwizard/" "GNUstep/" "simple-scan/" "ca-certificates-java/" "libgksu/" "strigi/" "tracker/" "nautilus-python/" "ElmerGUI/" "python-wheels/" "autoconf/" "netpbm/" "language-tools/" "ImageMagick-6/" "command-not-found/" "extra-xdg-menus/" "dict/" "hardening-includes/" "mono-2.0/" "ffmpeg/" "libtimezonemap/" "groff/" "seabios/" "dpkg/" "../" "./")
+
+ ("/usr/" (22456 41407 188603 581000) "local/" "include/" "../" "libx86_64-linux-gnu/" "locale/" "sbin/" "games/" "./" "lib/" "bin/" "share/" "src/")
+
+ ("/home/nidish_ubuntu1604/.emacs.d/" (22673 33497 760089 597000) "thumbs/" "yasnippet-snippets/" "eww-bookmarks" "timelog~" "request/" "timelog" "ac-comphist.dat" "emms/" "ido.last~" "recentf~" "ido.last" "bookmarks" ".mc-lists.el" "games/" "eshell/" "recentf" "snippets/" "%backup%~" "setup-linum/" "../" "elpa/" "auto-save-list/" "./" "scilab-mode/" "url/")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/build/" (22672 55707 844211 256000) "install_manifest.txt" "Makefile" "cmake_install.cmake" "CMakeCache.txt" "src/" "compile_commands.json" "lib/" "../" "CMakeFiles/" "./")
+
+ ("/home/nidish_ubuntu1604/.emacs.d/setup-linum/" (22673 33313 820084 671000) "setup-linum.el" "setup-linum.el~" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/" (22673 23006 246729 215000) "build/" "Codes/" "Formulation/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/.emacs.d/elpa/rtags-20170121.2345/" (22672 51393 856095 731000) "rtags-autoloads.el" "flycheck-rtags.el" "rtags.elc" "rtags-autoloads.el~" "rtags-ac.elc" "flycheck-rtags.elc" "rtags.el" "company-rtags.el" "rtags-helm.el" "rtags-pkg.el" "rtags-helm.elc" "../" "./" "company-rtags.elc" "rtags-ac.el")
+
+ ("/home/nidish_ubuntu1604/.emacs.d/elpa/" (22672 58894 56296 580000) "f-20161002.800/" "ac-etags-readme.txt" "pdf-tools-20170130.300/" "use-package-readme.txt" "0blayout-readme.txt" "ggtags-20161022.251/" "emstar-1.4/" "websocket-20161113.1736/" "bind-key-20161218.1520/" "xpm-1.0.3.signed" "ascii-art-to-unicode-1.9.signed" "bash-completion-20150514.728/" "transpose-frame-20151126.626/" "helm-flyspell-20160927.1648/" "ac-clang-20161202.725/" "xml+-20160210.1942/" "sokoban-1.23/" "magit-popup-20170128.745/" "helm-20170131.754/" "gnugo-3.0.1/" "flymake-checkers-0.5/" "rudel-0.3.1/" "popup-20160709.729/" "wget-1.94/" "markdown-mode+-20120829.510/" "helm-flycheck-20160710.129/" "tablist-20160424.235/" "org-themis-20160121.2004/" "yaxception-20150105.652/" "swiper-20161213.719/" "async-20161103.1036/" "chess-2.0.4.signed" "multiple-cursors-20161021.1431/" "chess-2.0.4/" "git-commit-20170128.745/" "vlf-20161030.840/" "cl-generic-0.3.signed" "eshell-git-prompt-20161126.758/" "helm-ls-git-20161122.241/" "eshell-manual-20141024/" "seq-2.19.signed" "julia-shell-20161125.1110/" "cl-generic-0.3/" "google-c-style-20140929.1118/" "auctex-11.90.0/" "auto-complete-chunk-readme.txt" "irony-20161227.348/" "gnugo-3.0.1.signed" "archives/" "math-symbol-lists-20160302.1431/" "xpm-1.0.3/" "typing-practice-0.1/" "yasnippet-20170127.2128/" "parsebib-20151006.232/" "hungry-delete-20161128.2238/" "use-package-20170116.1309/" "writegood-mode-20160802.1405/" "ipython-2927/" "levenshtein-20051013.1056/" "markdown-mode-20161222.1416/" "w3-4.0.49.signed" "auto-complete-pcmp-20140226.2251/" "undo-tree-20161012.701/" "screenshot-20120509.405/" "darkroom-0.1/" "company-irony-c-headers-20151018.209/" "with-editor-20170111.609/" "darkroom-0.1.signed" "sr-speedbar-20161025.131/" "company-shell-20161128.953/" "dash-20161121.55/" "cmake-project-20150720.1359/" "company-bibtex-20170125.2135/" "request-20170120.414/" "arduino-mode-20151017.2335/" "epl-20150517.433/" "ac-capf-readme.txt" "flycheck-irony-20160317.1536/" "irony-eldoc-20141226.2219/" "esh-help-20140107.222/" "s-20160928.636/" "diminish-20151215.915/" "pacmacs-20160131.32/" "flycheck-20170117.1430/" "log4e-20150105.505/" "org-pdfview-20161130.1053/" "multifiles-20130615.1433/" "helm-core-20170131.754/" "org-ac-20140302.413/" "company-auctex-20161025.24/" "chess-readme.txt" "latex-preview-pane-20151023.1303/" "2048-game-20151026.1233/" "timesheet-20160530.1445/" "window-numbering-20160809.1110/" "rtags-20170121.2345/" "let-alist-1.0.4.signed" "org-20170124/" "helm-ctest-20150823.408/" "ivy-20170109.626/" "sl-20161217.604/" "company-c-headers-20150801.901/" "iedit-20161228.2111/" "magit-20170131.701/" "let-alist-1.0.4/" "pkg-info-20150517.443/" "auctex-11.90.0.signed" "shut-up-20150423.522/" "ascii-art-to-unicode-1.9/" "pos-tip-20150318.813/" "julia-mode-20161027.625/" "auto-complete-20170124.1845/" "flycheck-pyflakes-20140630.1521/" "helm-ls-hg-20150908.2243/" "dash-functional-20160615.1351/" "auto-complete-c-headers-readme.txt" "auctex-latexmk-20160923.7/" "emms-20161222.1446/" "gnuplot-20141231.1337/" "zenburn-theme-20170103.2328/" "w3-4.0.49/" "company-irony-20160826.56/" "ereader-20161119.652/" "evil-colemak-minimal-readme.txt" "gnupg/" "cff-20160118.1218/" "seq-2.19/" "blank-mode-20130824.459/" "ducpel-20140702.454/" "doctags-0.1/" "clang-format-20170120.137/" "rudel-0.3.1.signed" "cmake-ide-20170130.451/" "company-20170112.2005/" "undo-tree-readme.txt" "slideview-20150324.1540/" "latex-pretty-symbols-20151112.244/" "epresent-20160410.1901/" "cmake-mode-20160928.505/" "auto-complete-clang-async-readme.txt" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Software_Tools/rtags/src/" (22672 57072 800247 809000) "CompletionThread.h" "QueryMessage.cpp" "FindSymbolsJob.h" "StatusJob.cpp" "lua/" "Symbol.cpp" "Token.cpp" "rct/" "RTagsVersion.h.in" "Sandbox.cpp" "FindSymbolsJob.cpp" "IndexParseData.cpp" "clangtest.c" "rc.cpp" "ListSymbolsJob.h" "IndexMessage.h" "rtags.lua" "JobScheduler.h" "flycheck-rtags.el" "IndexParseData.h" "rtags.elc" "RTagsMessage.h" "Server.h" "Source.cpp" "ClangThread.h" "ClangThread.cpp" "IncludeFileJob.cpp" "SymbolInfoJob.cpp" "IndexerJob.cpp" "rtags-ac.elc" "Filter.h" "Symbol.h" "FileManager.cpp" "CommandLineParser.h" "IndexMessage.cpp" "RTags.cpp" "flycheck-rtags.elc" "Project.cpp" "QueryMessage.h" "ScanThread.h" "Makefile" "IndexDataMessage.h" "cmake_install.cmake" "ProcThread.h" "include/" "DependenciesJob.cpp" "RTagsLogOutput.h" "CMakeLists.txt" "Sandbox.h" "librtags.a" "LogOutputMessage.h" "rp.cpp" "IncludeFileJob.h" "CompilerManager.cpp" "ClangIndexer.cpp" "ScanThread.cpp" "ClassHierarchyJob.h" "FollowLocationJob.h" "rdm.cpp" "SymbolInfoJob.h" "Source.h" "rtags.el" "AST.h" "ClangIndexer.h" "QueryJob.h" "company-rtags.el" "rtags-bash-completion.bash" "rtags-helm.el" "TokensJob.h" "Location.cpp" "rtags-helm.elc" "Preprocessor.cpp" "VisitFileMessage.h" "ReferencesJob.cpp" "JSONJob.cpp" "CompilerManager.h" "Project.h" "RClient.h" "Location.h" "selene/" "RTags.h" "TokensJob.cpp" "JSONJob.h" "FollowLocationJob.cpp" "AST.cpp" "QueryJob.cpp" "DependenciesJob.h" "Diagnostic.h" "FixIt.h" "Preprocessor.h" "FindFileJob.h" "FileManager.h" "Server.cpp" "ProcThread.cpp" "LogObject.h" "RClient.cpp" "JobScheduler.cpp" "Match.h" "IndexerJob.h" "FileMap.h" "../" "VisitFileResponseMessage.h" "CMakeFiles/" "CompletionThread.cpp" "./" "company-rtags.elc" "Token.h" "ClassHierarchyJob.cpp" "ReferencesJob.h" "StatusJob.h" "rtags-ac.el" "compile-shim.elisp" "FindFileJob.cpp" "ListSymbolsJob.cpp")
+
+ ("/home/nidish_ubuntu1604/Software_Tools/rtags/" (22672 56533 808233 375000) "clang.sup" "web/" ".git/" "build/" ".gitmodules" "bin/" "cmake/" "completions/" "Makefile" "cmake_install.cmake" "man/" "CMakeLists.txt" "automated_tests/" "tests/" ".dir-locals.el" "CMakeCache.txt" "configure" "llvm-checksums/" "README.org" ".gitignore" "Uninstall.cmake" "scripts/" "src/" "compile_commands.json" "../" "CMakeFiles/" "./" ".travis.yml" "LICENSE.txt")
+
+ ("/home/nidish_ubuntu1604/Software_Tools/" (22672 54391 888176 16000) "Auto/" "Zoom - Profiler/" "ThreeBodyVisualization/" "mangledjamon/" "Signal_Processing/" "macanova/" "GSL/" "FFT/" "MSU's Sparse Fourier Repository/" "DroidCam/" "SOFA/" "GRBL/" "rtags/" "Salome/" "MBDyn/" "FEAST/" "xoscope/" "FELT/" "VNC - Desktop Sharing/" "STFT/" "MyDataScienceToolbox/" "FreeUSP/" "Zotero/" "Eigen/" "anova/" "Alglib/" "z88/" "Salome_Meca/" "GURLS/" "DAP/" "ebus/" "Scilab/" "GNU_Global/" "Code_Aster/" "dslib/" "SID Monitoring Station/" "auctex-autocomplete-emacs/" "../" "VFGEN/" "GSL_SHELL/" "./")
+
+ ("/home/nidish_ubuntu1604/Software_Tools/rtags/build/" (22672 55393 224202 831000) "bin/" "install_manifest.txt" "completions/" "Makefile" "cmake_install.cmake" "CMakeCache.txt" "Uninstall.cmake" "src/" "../" "CMakeFiles/" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Reynolds_Equation/" (22672 51627 68101 976000) "Main.py~" "Main.py" "Press.eps" "Routines.py~" "Tryouts.py" "Tryouts.py~" "Routines.py" "Routines.pyc" "../" "./")
+
+ ("/home/nidish_ubuntu1604/.emacs.d/elpa/flycheck-pyflakes-20140630.1521/" (22672 49903 88055 810000) "flycheck-pyflakes-pkg.el" "flycheck-pyflakes-autoloads.el" "flycheck-pyflakes-pkg.elc" "flycheck-pyflakes.elc" "flycheck-pyflakes.el" "../" "./" "flycheck-pyflakes-autoloads.el~")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Organization/" (22671 23842 248026 384000) "Academic Calender Jan-July 2017 Even Sem.pdf" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Codes/lib/" (22672 30332 108153 287000) "CMakeLists.txt~" "CMakeLists.txt" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Chegg/Ten/Code/" (22670 19709 600202 333000) "calculator" "useFraction.cpp" "Fraction.h" "useFraction.o" "DEADJOE" "Makefile" "Fraction.cpp" "Fraction.o" "useFraction" "../" "calculator.cpp" "./" "calculator.o" "hw1.tar" ".#Makefile")
+
+ ("/home/nidish_ubuntu1604/Documents/Chegg/Ten/" (22670 13179 292027 457000) "Code/" "useFraction.cpp" "quest.pdf" "../" "calculator.cpp" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Chegg/" (22671 16659 548090 153000) "Three/" "Ten/" "Nine/" "Eight/" "Four/" "Five/" "Eleven/" "One/" "Seven/" "Six/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Downloads/" (22672 26562 696052 345000) "4MRescueKit-15.0.iso" "4MLinux-15.0(2).iso" "scan0035.pdf" "CorePlus-current.iso" "ubuntu-16.04.1-desktop-amd64.iso" "teleg/" ".org.chromium.Chromium.FcOtgx" "FFAplot.m" "Core-current.iso" "calculator.cpp" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Shaft_FEM/Formulation/" (22672 10702 460051 80000) "formns.mac~" "../" "./" "formns.mac")
+
+ ("/home/nidish_ubuntu1604/Development/lib/" (22566 46720 687115 370000) "CMakeLists.txt~" "libdbgnid.a" "CMakeLists.txt" "libnid.a" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/ADCS_PRIYA_CODES/Modular/" (22672 13891 480019 669000) "datafiles/" ".git/" "release/" "build/" "GPATH" "CMakeLists.txt~" "GSYMS" "CMakeLists.txt" "GRTAGS" "src/" "../" "./" "debug/" "GTAGS")
+
+ ("/home/nidish_ubuntu1604/Development/src/" (22620 57698 725589 307000) "nidharmonics.c" "CMakeLists.txt~" "nidpoincare.c~" "CMakeLists.txt" "convolve.c~" "nidharmonics.c~" "nidfft.c" "convolve.c" "nidstft.c~" "wavegen.c~" "nidstft.c" "nidpoincare.c" "../" "./" "nidfft.c~" "wavegen.c")
+
+ ("/home/nidish_ubuntu1604/Development/" (22566 57726 87410 86000) ".git/" "build/" "obj/" "bugs/" "CMakeLists.txt~" "README.md" "Development_Files/" "include/" "CMakeLists.txt" "README.md~" ".gitignore" "src/" "lib/" "../" "./" "examples/")
+
+ ("/home/" (22665 58314 68520 160000) "nidish_ubuntu1604/" "../" "lost+found/" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/ADCS_PRIYA_CODES/Modular/src/" (22566 46849 831118 829000) "Propagation.c~" "Sunmodel.c" "Controller.c" "GPATH" "Controller.c~" "AttitudeDetermination.h~" "Loop.c~" "CMakeLists.txt~" "IGRF.c" "IGRF.h" "GSYMS" "KinematicsDynamics.h~" "Propagation.h~" "Actuator.h~" "AttitudeDetermination.c" "Requisites.c" "Controller.h" "IGRF.c~" "Propagation.h" "KinematicsDynamics.c" "Sunmodel.c~" "Variables.h~" "Loop.c" "CMakeLists.txt" "Sunmodel.h" "Propagation.c" "Sensors.c" "KinematicsDynamics.c~" "AttitudeDetermination.h" "GRTAGS" "Actuator.c~" "Controller.h~" "Requisites.h" "Variables.c" "Requisites.c~" "Sensors.h" "Sunmodel.h~" "Actuator.h" "Actuator.c" "../" "Variables.h" "./" "Variables.c~" "Sensors.h~" "AttitudeDetermination.c~" "Requisites.h~" "GTAGS" "KinematicsDynamics.h" "IGRF.h~")
+
+ ("/home/nidish_ubuntu1604/Documents/ADCS_PRIYA_CODES/" (22498 50324 676229 87000) "nofilter/" "NoFilter.tar.gz" "Modular/" "nofilter-debugged.tar.gz" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Propulsion_Lab/Ramjet/AbstIntro/" (22555 33130 735745 648000) "AbstIntro.synctex.gz" "AbstIntro.tex" "AbstIntro.blg" "AbstIntro.log" "AbstIntro.zip" "AbstIntro.aux" "AbstIntro.bbl" "AbstIntro.fls" "AbstIntro.tex~" "Refs.bib" "AbstIntro.pdf" "../" "./" "Refs.bib~" "AbstIntro.fdb_latexmk")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/BVP/1D/" (22669 33277 232769 709000) "Main.py~" "Main.py" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Prospects/" (22662 7032 180023 490000) "shortlist.xls" "Prospects.org~" "Prospects.tex" "#Prospects.org#" "Prospects.org" "Prospects.pdf" "../" "./" "Prospects.tex~")
+
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/Presentations/3. Introduction to Scientific Computing with Linux/II. Basic Tools/LaTeX/" (22664 23287 268012 751000) "LaTeXhist_IISTFOSS.fdb_latexmk" "LaTeXhist_IISTFOSS.tex~" "auto/" "LaTeXhist_IISTFOSS.tex" "MISC/" "LaTeXhist_IISTFOSS.log" "LaTeXhist_IISTFOSS.snm" "LaTeXhist_IISTFOSS.out" "LaTeXhist_IISTFOSS.synctex.gz" "LaTeXhist_IISTFOSS.nav" "LaTeXhist_IISTFOSS.toc" "Figs/" "LaTeXhist_IISTFOSS.aux" "LaTeXhist_IISTFOSS.pdf" "LaTeXhist_IISTFOSS.fls" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/Presentations/3. Introduction to Scientific Computing with Linux/II. Basic Tools/Emacs/" (22660 56498 292020 414000) "EmacsTut_IISTFOSS.snm" "EmacsTut_IISTFOSS.fls" "auto/" "EmacsTut_IISTFOSS.synctex.gz" "EmacsTut_IISTFOSS.aux" "EmacsTut_IISTFOSS.tex" "EmacsTut_IISTFOSS.pdf" "EmacsTut_IISTFOSS.out" "EmacsTut_IISTFOSS.fdb_latexmk" "EmacsTut_IISTFOSS.toc" "../" "./" "EmacsTut_IISTFOSS.log" "EmacsTut_IISTFOSS.nav")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Reports/Reynolds_Equation/" (22664 32477 648000 511000) "RE_PSM.bbl" "RE_PSM.nls" "RE_PSM.blg" "auto/" "RE_PSM.pdf" "RE_PSM.synctex.gz" "RE_PSM.lot" "prv_RE_PSM.log" "_region_.log" "RE_PSM.tex~" "_region_.prv/" "RE_PSM.nlo" "_region_.nlo" "RE_PSM.fls" "RE_PSM.fdb_latexmk" "RE_PSM.aux" "Figs/" "Refs.bib" "RE_PSM.tex" "../" "./" "Refs.bib~" "RE_PSM.ilg" "RE_PSM.lof" "_region_.tex" "RE_PSM.log")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/" (22668 62576 400241 291000) "Reynolds_Equation/" "Learning/" "Shaft_FEM/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/" (22668 38046 24107 573000) "MOUNTPOINT/" "Writing/" "Misc Events/" "Research_Work/" "Higher_Studies/" "Software_Familiarization/" "Beamer/" "Android_Backup/" "Obligatory Modern Society Stuff/" "Courses/" "8th_Semester/" "Firefox_OS/" "ADCS/" "Favors/" "Chegg/" "Coding_Style/" "EcoClub/" "FOSS_GROUP/" "7th_Semester/" "NASTRAN/" "Tracker/" "../" "./" "CV_Format/" "ADCS_PRIYA_CODES/" "Nanosatellite Project/" "geant4/")
+
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/Presentations/3. Introduction to Scientific Computing with Linux/" (22461 54079 281714 88000) "III. Basic Computing/" "II. Basic Tools/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/Presentations/3. Introduction to Scientific Computing with Linux/II. Basic Tools/" (22660 55938 916005 434000) "LaTeX/" "Emacs/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Desktop/" (22642 38896 268255 531000) ".Transformations.c.un~" "refcard.pdf" "Mr Holmes 2015 1080p BluRay x264 DTS-JYK/" "orgcard.pdf" "Batman V Superman Dawn Of Justice (2016) [1080p]/" "sds/" "Manju_Pendrive/" "Saala_Khadoos/" "valkyire/" "bills/" "androidstudio.desktop" "Aerospace - Batch 2013 - Students List.xlsx" "soaw/" "Reading/" "gpcard.pdf" "Drivers/" "Divergent (2014)/" "Favors/" "hh/" "AVD_PRESENTATIONS/" "The Pursuit of Happyness (2006)/" "FEAST-SMT 2015 R2.desktop" ".~lock.Untitled 1.ods#" "The man who knew infinity/" "Intro_Numerical_Continuation_Methods.pdf" "Andras Z. Szeri Fluid Film Lubrication Theory and Design.pdf" "Polar_coord.pdf" "Enemy of the State (1998)/" "Network_Driver/" "en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso.zip" "../" "./" "salome_meca_V2016.desktop" "Heat.1995.1080p.BRrip.x264.YIFY/" "mydoc_fftw.pdf" "Nayfeh_Balachandran.djvu" "openSCAD_cheat_sheet.png")
+
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Henon_Heiles/EOM/" (22640 48926 474415 669000) "System.c" "Contours/" "henonheiles_eom.wxmx" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/Diff_Mx/" (22652 44529 532477 387000) "tmp/" "Main.py~" "Main.py" "Cheb_fft/" "../" "./" "Cheb_grid/" "Cheb_spec/")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/Academic_Statement_Of_Purpose/" (22635 14113 231394 866000) "Ac_SOP.tex" "Ac_SOP.fdb_latexmk" "Ac_SOP.pdf" "Ac_SOP.log" "Ac_SOP.tex~" "Ac_SOP.aux" "Ac_SOP.fls" "Ac_SOP.synctex.gz" "../" "Ac_SOP.out" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/Personal_Statement/" (22634 29761 804281 122000) "Pers_Stat.log" "Pers_Stat.pdf" "Pers_Stat.fdb_latexmk" "Pers_Stat.tex~" "Pers_Stat.synctex.gz" "Pers_Stat.aux" "../" "Pers_Stat.tex" "./" "Pers_Stat.fls" "Pers_Stat.out")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/2D_Wave/" (22655 4422 308152 248000) "Main.py~" "Main.py" "anim.py~" "../" "./" "anim.py")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/BVP/2D/" (22655 16325 644023 690000) "Main.py~" "Main.py" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Georgia/" (22660 35102 768020 909000) "GTID~" "Mails.org" "Mails.org~" "../" "GTID" "./" "spoken")
+
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/Presentations/" (22471 61447 565191 906000) "1. Introduction to FOSS and Linux/" "Format/" "3. Introduction to Scientific Computing with Linux/" "2. Linux Installation Fest/" "5. Software Development/" "FreeSoftware.pdf" "../" "./" "4. Basic Computing/")
+
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/IISTFOSS/" (22656 59424 436001 83000) ".git/" "Writeup/" "Inauguration_24AUG16/" "Status/" "Latex_Session_17/" "Installation_Fest/" "Presentations/" "../" "./" "Logo/")
+
+ ("/home/nidish_ubuntu1604/Documents/FOSS_GROUP/" (22470 40089 352833 135000) "OpenFOAM_Sessions/" "Tutorials/" "IISTFOSS/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Reports/Reynolds_Equation/Figs/" (22659 47794 921281 652000) "Press.eps" "cav.eps" "grids.tex~" "cav-eps-converted-to.pdf" "cav/" "journal.tex" "journal.tex~" "lub.tex" "Press-eps-converted-to.pdf" "grids.tex" "lub.tex~" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Reports/" (22656 12431 696005 508000) "Reynolds_Equation/" "../" "./" "References/")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/" (22656 12336 748002 966000) "Codes/" "Reports/" "../" "Survey/" "./" "References/")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/" (22657 37672 400003 492000) "Organization/" "Final_Project/" "Courses/" "TimeTables/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Resume/" (22655 28389 580156 834000) "Resume.aux" "with3.png" "proj.jpg" "Resume.log" "Resume.tex~" "Corrections/" "Resume.synctex.gz" "resume_nidish_iist_2016.pdf" "Resume.pdf" "with4.png" "Resume.tex" "Resume.fdb_latexmk" "Resume.fls" "unicode-math.dtx" "line.jpg" "Figs/" "with5.png" "../" "./" "with1.png")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/Resume/" (22633 17948 296279 74000) "Resume.aux" "Resume.log" "Resume.tex~" "Resume.synctex.gz" "Resume.pdf" "Resume.tex" "Resume.fdb_latexmk" "Resume.fls" "Figs/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/Michigan/" (22633 19221 720313 175000) "Resume/" "Academic_Statement_Of_Purpose/" "Requirements.org~" "Requirements.org" "../" "./" "Personal_Statement/")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Univ_wise/" (22637 59497 948085 879000) "Rice/" "Missouri/" "Georgia/" "Michigan/" "Maryland/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/DrGantasala/Recieved1/code/" (22654 26918 204243 26000) "Spectral_brgforces.sce" "fourier_DM.sci" "../" "./" "cheb.sci")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/DrGantasala/Recieved1/" (22654 26918 204243 26000) "IFTOMM Paper_Submitted.pdf" "code/" "An Efficient Calculation Method of Nonlinear Fluid Film Forces in Journal Bearing.pdf" "IFTOMM paper programs.zip" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/DrGantasala/" (22654 19472 836043 646000) "fwdscilabprogramsforfempressurecalculation.zip" "main.sce" "Recieved1/" "new_brg_pressure_mat.sci" "brg_pressure_cylindrical.sci~" "../" "./" "brg_pressure_cylindrical.sci")
+
+ ("/home/nidish_ubuntu1604/.emacs.d/scilab-mode/" (22653 59782 944041 667000) "scilab.el" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/Numerical_Integration/" (22653 45977 8079 347000) "Main.py~" "Main.py" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/" (22653 43047 40000 884000) "Diff_Mx/" "Chebyshev/" "DFT/" "1D_Wave/" "Cheb_EB_Beam/" "BVP/" "Wave/" "2D_Wave/" "../" "Numerical_Integration/" "./" "SHM/")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/Dr_San_Andres/Lectures/" (22649 56509 797028 188000) "Notes06 Liquid cavitation model.pdf" "Notes00 Introduction.pdf" "Notes14 Param_identification 09.pdf" "Notes04 Static Load JBs 10.pdf" "Notes07 Thermal Anaysis JBs w examples.pdf" "Notes01 Fundaments Lub Theory.pdf" "Notes08 Turbulence Flow in Thin Films.pdf" "Notes05 App A Whirl explained  and examples.pdf" "Notes12b Hydrostatic Bearings.pdf" "Notes02 Classical Lub Theory.pdf" "Notes13 Squeeze Film Dampers.pdf" "Notes15 Gas Film Lubrication.pdf" "Notes12a Damper Seals.pdf" "Notes16 Analysis Tilt Pad bearings.pdf" "L00 Cover lecture notes.pdf" "Notes09 Turbulence and Inertia in JBs 09.pdf" "Notes00 Microturbomachinery Applications 2010.pdf" "Notes00 Tribology_applications.pdf" "Notes10 THD_BulkFlowModel_09.pdf" "Notes02_App_1D_bearings.pdf" "../" "Notes11 Floating Ring Seals 09.pdf" "Notes03 Kinematics JBs.pdf" "./" "Notes11 Long Oil seals 09.pdf" "Notes05 rigid rotor on JBs 10.pdf")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/Dr_San_Andres/" (22643 17291 152048 287000) "Refs/" "L17 reading assignments portafolio.pdf" "ME LUB NOTES Portfolio.pdf" "Lectures/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/References/" (22649 57672 45059 312000) "Miscellaneous/" "Books/" "Literature/" "Chebyshev/" "Reynolds_Equation/" "Dr_San_Andres/" "Dyrobes_References/" "DrGantasala/" "../" "./" "Videos.org~")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Statement_Of_Purpose/SOP_Full/Corrections/" (22605 17369 608423 37000) "SOP_Nidish.pdf" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/" (22632 62630 376004 215000) "Resume/" "Scholarships/" "TOEFL/" "Prospects/" "Score.ps" "UMKC_ME_MECH.pdf" "CV/" "Statement_Of_Purpose/" "Gradesheets/" "GRE/" "Univ_wise/" "../" "./" "Score.pdf")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Statement_Of_Purpose/Univ_Wise/" (22631 44782 908078 220000) "gatech/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Project/Trajectory/" (22561 37486 36029 163000) "Trajectory.py~" "T_Fpa.pdf" "Trajectory.py" "T_Alt.eps" "T_RC.eps" "It1Conds.dat~" "AccelAlt.png" "Y_Fpa.pdf" "T_Fpa.eps" "T_Vel.eps" "../" "./" "It1Conds.dat")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Project/Mission_Design/" (22560 51385 485592 910000) "Mission_Design.org" "Presentation/" "Report/" "Mission_Design.org~" "AE/" "Previous_Missions/" "mechanism-report.pdf" "Propulsion/" "../" "./" "References/")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Project/Mission_Design/References/" (22557 49444 406397 891000) "NASA_ARDV.pdf" "optimal_control_rendezvous_close_range.pdf" "Control_Using_Rxn_Wheels.pdf" "Small Satellite Reaction Wheel Optimization.pdf" "Dynamics_Control_Uncooperative_Capture.pdf" "Capture_System.pdf" "MATLAB_tool.pdf" "Autonomous_Rendezvous_and_capture.pdf" "mission.png" "acs_refs.pdf" "ACS_Design_Small_Sats.pdf" "../" "ACS.png" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Project/Mission_Design/Report/" (22558 7057 732446 375000) "Mission_Design.synctex.gz" "Mission_Design.bbl" "Mission_Design.tex" "Mission_Design.lof" "Mission_Design.out" "Mission_Design.lot" "Mission_Design.log" "Nid.zip" "Mission_Design.tex~" "Mission_Design.pdf" "Mission_Design.blg" "Mission_Design.fdb_latexmk" "Figs/" "Refs.bib" "Mission_Design.toc" "../" "./" "Refs.bib~" "Mission_Design.fls" "Mission_Design.aux")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Organization/EndSem/" (22576 10433 516016 358000) "SchedProp_corrected.pdf" "SchedProp.pdf" "2013 B.Tech(VII SEM).pdf" "SchedProp.org~" "sched3.png" "sched2.png" "Seats/" "SchedProp.tex" "sched1.png" "SchedProp.org" "SchedProp.tex~" "../" "./" "sched4.png")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/Mini_Robot/" (22589 41289 512066 832000) "Data_Minirobot.org~" "Data_Minirobot.org" "Python_Scripts/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Propulsion_Lab/Axial_Flow_Turbine/calcs/" (22566 54869 251333 582000) "axial_fan_calculations.zip" "observation-Axial_fan.txt" "fanspeed.png" "faninputpower.png" "sample_calc.txt" "staticpressurehead.png" "sample_calc.txt~" "../" "efficiency.png" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Propulsion_Lab/" (22569 60662 471551 480000) "Refs/" "AXIAL FLOW FAN TEST RIG final.pdf" "PropLab-Expts.zip" "Axial_Flow_Turbine/" "Ramjet/" "PropLab-ReportFormat.pdf" "Reports/" "Ramjet Engine1.pdf" "CD_Nozzle/" "../" "./" "Turbojet/")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Flight_Mechanics_and_Propulsion_Lab/Propulsion_Lab/Axial_Flow_Turbine/" (22567 29212 628435 527000) "axialflowfan.nls" "IEEEtran.cls" "widetext.sty" "axial_fan/" "mayank/" "axialflowfan.tex~" "results/" "axialflowfan.log" "axialflowfan.ilg" "axialflowfan.bbl" "axialflowfan.ind" "mariya/" "axialflowfan.idx" "axialflowfan.synctex.gz" "axialflowfan.fls" "aelab_aiaa-tc.cls" "widetext.sty~" "axialflowfan.pdf" "calcs/" "Figs/" "Refs.bib" "axialflowfan.nlo" "axialflowfan.aux" "../" "./" "Refs.bib~" "axialflowfan.blg" "axialflowfan.fdb_latexmk" "axialflowfan.tex")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/Aristo/Python_Scripts/" (22589 4825 940051 13000) "Inverse_Kinem/" "../" "Forward_Kinem/" "./" "Calibration/")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/Mini_Robot/Python_Scripts/" (22589 4534 12040 110000) "Inverse_Kinem/" "../" "Forward_Kinem/" "./" "Calibration/")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/Mini_Robot/Python_Scripts/Inverse_Kinem/" (22589 12712 116011 992000) "Main.py~" "Main.py" "Theta" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Introduction_to_Robotics/Lab/Cycle2/Calibration/Mini_Robot/Python_Scripts/Calibration/" (22589 6232 216103 532000) "Main.py~" "Main.py" "Theta" "Routines.py~" "Routines.py" "Routines.pyc" "Conv.png" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/7th_Semester/Aerospace_Vehicle_Design/Aravind_Sir/" (22579 14946 816007 364000) "Aircraft Design -2.pdf" "Aircraft Design- 5.ppt" "Aircraft Design- 5.pdf" "Conversion_Factors.pdf" "Script/" "Aircraft Design- 3.pdf" "Aircraft Design -2.ppt" "Aircraft Design -1.pdf" "Aircraft Design- 4.pdf" "Aircraft Design- 6.ppt" "Aircraft_Design_A_Systems_Approach_Sadraey.pdf" "../" "Aircraft Design- 4.ppt" "./" "Aircraft Design- 3.ppt" "Aircraft Design- 6.pdf" "Key/" "Aircraft Design -1.ppt")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Statement_Of_Purpose/" (22631 44766 296077 775000) "SOP_Short/" "Univ_Wise/" "SOP_Full/" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Chegg/Nine/" (22605 20543 901488 375000) "System.cpp" "Nine.zip" "Makefile" "Main.cpp" "1code.cpp~" "1code.cpp" "a.out" "../" "./" "System.hpp")
+
+ ("/home/nidish_ubuntu1604/Documents/Higher_Studies/Gradesheets/Summary/" (22610 15577 477879 468000) "summary.fdb_latexmk" "summary.org" "summary.log" "summary.pdf" "summary.tex" "summary.org~" "summary.synctex.gz" "summary.aux" "../" "summary.tex~" "./" "summary.fls")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/DFT/" (22626 39611 740321 129000) "Main.py~" "Main.py" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/1D_Wave/" (22626 49756 740592 804000) "Main.py~" "Main.py" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/BVP/" (22625 24642 940152 747000) "1D/" "../" "2D/" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/Wave/" (22624 64971 236392 883000) ".work.gp.un~" "work.gp" "Main.py~" "Main.py" "work.gp~" "max.txt" "../" "./" "new.txt")
+
+ ("/home/nidish_ubuntu1604/Documents/8th_Semester/Final_Project/Codes/Learning/Diff_Mx/Cheb_Spec/" (22626 42265 144392 185000) "Main.py~" "Main.py" "../" "./")
+
+ ("/home/nidish_ubuntu1604/Documents/Research_Work/Harmonic_Energy_Balance/Henon_Heiles/REP/Pres_Dec20/" (22616 7468 784185 948000) "henonheiles_pres_dec20.log" "henonheiles_pres_dec20.pdf" "henonheiles_pres_dec20.snm" "henonheiles_pres_dec20.aux" "henonheiles_pres_dec20.tex" "henonheiles_pres_dec20.fdb_latexmk" "henonheiles_pres_dec20.toc" "henonheiles_pres_dec20.tex~" "Figs/" "henonheiles_pres_dec20.fls" "../" "henonheiles_pres_dec20.nav" "henonheiles_pres_dec20.out" "./" "henonheiles_pres_dec20.synctex.gz")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
