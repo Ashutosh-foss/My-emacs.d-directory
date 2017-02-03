@@ -1,3 +1,8 @@
+;;; Package -- Summary
+;;; Commentary:
+;;; pdf-tools acts wierd with linum-mode.  This package disables the
+;;; hook with pdf-tools and a few others
+;;; Code:
 (require 'linum)
 
 (global-linum-mode)
@@ -15,10 +20,9 @@
 
 (defun linum-on ()
   "* When linum is running globally, disable line number in modes defined in `linum-disabled-modes-list'. Changed by linum-off. Also turns off numbering in starred modes like *scratch*"
-
   (unless (or (minibufferp) (member major-mode linum-disabled-modes-list)
-              (and linum-disable-starred-buffers (string-match "*" (buffer-name)))
-              )
+              (and linum-disable-starred-buffers (string-match "*" (buffer-name))))
     (linum-mode 1)))
 
 (provide 'setup-linum)
+;; setup-linum ends here

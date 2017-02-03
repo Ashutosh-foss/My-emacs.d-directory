@@ -1,21 +1,14 @@
-;;; My .emacs File
+;;; My emacs init File
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ansi-color-faces-vector
-   [default default default italic underline success warning error])
- '(ansi-color-names-vector
-   ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
- '(ansi-term-color-vector
-   [unspecified "#FAFAFA" "#FF1744" "#66BB6A" "#F57F17" "#42A5F5" "#7E57C2" "#0097A7" "#546E7A"])
+ '(custom-enabled-themes (quote (wheatgrass)))
+ '(tool-bar-mode nil)
  '(auctex-latexmk-inherit-TeX-PDF-mode t)
  '(custom-enabled-themes (quote (wheatgrass)))
- '(custom-safe-themes
-   (quote
-    ("14f0fbf6f7851bfa60bf1f30347003e2348bf7a1005570fd758133c87dafe08f" "c805dfe317b401e92d9c17ef3d5010c762364364e23601667adef94415da33ee" "04dd0236a367865e591927a3810f178e8d33c372ad5bfef48b5ce90d4b476481" default)))
  '(display-battery-mode t)
  '(doc-view-continuous t)
  '(doc-view-scale-internally t)
@@ -25,23 +18,32 @@
  '(scroll-bar-mode nil)
  '(send-mail-function (quote mailclient-send-it))
  '(timesheet-invoice-number 102)
- '(tool-bar-mode nil))
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
+ '(ansi-term-color-vector
+   [unspecified "#FAFAFA" "#FF1744" "#66BB6A" "#F57F17" "#42A5F5" "#7E57C2" "#0097A7" "#546E7A"])
+ )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(button ((t (:inherit default)))))
 
 (setq inhibit-startup-message t
 inhibit-startup-echo-area-message t)
 
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "https://melpa.org/packages/")
+			 ("marmalade" . "https://marmalade-repo.org/packages/")
+			 ("melpa" . "https://melpa.org/packages/")
+			 ("melpa_mb" . "http://melpa.milkbox.net/packages/")
 			 ("org" . "http://orgmode.org/elpa/")))
 (require 'package)
 (package-initialize)
+
+(add-to-list 'load-path "~/.emacs.d/setup-linum/")
 
 ;; My Shortcuts
 (global-set-key (kbd "C-c C-x c") 'comment-region)
@@ -56,7 +58,7 @@ inhibit-startup-echo-area-message t)
 
 (define-key emacs-lisp-mode-map (kbd "C-c C-e") 'eval-region)
 (define-key emacs-lisp-mode-map (kbd "C-c C-b") 'eval-buffer)
-  
+
 ;; Org-Mode
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
@@ -72,7 +74,7 @@ inhibit-startup-echo-area-message t)
 
 ;; multifiles
 (require 'multifiles)
-(global-set-key (kbd "C-c m c") 'mc/edit-lines)
+(global-set-key (kbd "C-x m") 'mc/edit-lines)
 
 ;; AucTeX
 (setq TeX-auto-save t)
@@ -82,12 +84,12 @@ inhibit-startup-echo-area-message t)
 	  (lambda ()
 	    (TeX-fold-mode 1)
 	    (add-hook 'find-file-hook 'TeX-fold-buffer t t)
-	    (add-hook 'after-change-functions 
-		      (lambda (start end oldlen) 
+	    (add-hook 'after-change-functions
+		      (lambda (start end oldlen)
 			(when (= (- end start) 1)
-			  (let ((char-point 
-                                 (buffer-substring-no-properties 
-                                  start end)))
+			  (let ((char-point
+				 (buffer-substring-no-properties
+				  start end)))
 			    (when (or (string= char-point "}")
 				      (string= char-point "$"))
 			      (TeX-fold-paragraph)))))
@@ -122,21 +124,20 @@ inhibit-startup-echo-area-message t)
 (require 'langtool)
 (setq langtool-language-tool-jar "/home/nidish_ubuntu1604/Software_Tools/LanguageTool/LanguageTool-3.6/languagetool-commandline.jar")
 
-(global-set-key "\C-x4w" 'langtool-check)                  
-(global-set-key "\C-x4W" 'langtool-check-done)             
+(global-set-key "\C-x4w" 'langtool-check)
+(global-set-key "\C-x4W" 'langtool-check-done)
 (global-set-key "\C-x4l" 'langtool-switch-default-language)
-(global-set-key "\C-x44" 'langtool-show-message-at-point)  
+(global-set-key "\C-x44" 'langtool-show-message-at-point)
 (global-set-key "\C-x4c" 'langtool-correct-buffer)
 
 (setq langtool-default-language "en-US")
 
-
 ;; ggtags mode
 ;; (require 'ggtags)
 ;; (add-hook 'c-mode-common-hook
-;;           (lambda ()
-;;             (when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
-;;               (ggtags-mode 1))))
+;;	  (lambda ()
+;;	    (when (derived-mode-p 'c-mode 'c++-mode 'java-mode 'asm-mode)
+;;	      (ggtags-mode 1))))
 
 ;; (define-key ggtags-mode-map (kbd "C-c g c") 'ggtags-create-tags)
 ;; (define-key ggtags-mode-map (kbd "C-c g u") 'ggtags-update-tags)
@@ -164,7 +165,7 @@ inhibit-startup-echo-area-message t)
 ;; (add-to-list 'company-backends 'company-clang)
 
 ;; setup-linum
-(load-file "~/.emacs.d/setup-linum/setup-linum.el")
+(load "setup-linum")
 (require 'setup-linum)
 
 ;; Octave-mode
@@ -175,7 +176,7 @@ inhibit-startup-echo-area-message t)
 (display-time-mode t)
 
 ;; .emacs
-(find-file "~/.emacs")
+(find-file "~/.emacs.d/init.el")
 (org-agenda nil "a")
 (require 'preview)
 
@@ -209,7 +210,7 @@ inhibit-startup-echo-area-message t)
 ;; (setq ido-everywhere t)
 ;; (ido-mode 1)
 ;; (require 'ido-hacks nil t)
-;; (if (commandp 'ido-vertical-mode) 
+;; (if (commandp 'ido-vertical-mode)
 ;;     (progn
 ;;       (ido-vertical-mode 1)
 ;;       (setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)))
@@ -248,9 +249,28 @@ inhibit-startup-echo-area-message t)
  helm-ff-file-name-history-use-recentf t
  ;; Allow fuzzy matches in helm semantic
  helm-semantic-fuzzy-match             t
- helm-imenu-fuzzy-match                t)
+ helm-imenu-fuzzy-match                t
+ helm-echo-input-in-header-line        t )
+
+(defun spacemacs//helm-hide-minibuffer-maybe ()
+  "Hide minibuffer in Helm session if we use the header line as input field."
+  (when (with-helm-buffer helm-echo-input-in-header-line)
+    (let ((ov (make-overlay (point-min) (point-max) nil nil t)))
+      (overlay-put ov 'window (selected-window))
+      (overlay-put ov 'face
+		   (let ((bg-color (face-background 'default nil)))
+		     `(:background ,bg-color :foreground ,bg-color)))
+      (setq-local cursor-type nil))))
+
+(add-hook 'helm-minibuffer-set-up-hook
+	  'spacemacs//helm-hide-minibuffer-maybe)
+
 ;; Have helm automaticaly resize the window
+(setq helm-autoresize-max-height 0)
+(setq helm-autoresize-min-height 20)
 (helm-autoresize-mode 1)
+
+(helm-mode 1)
 
 ;; rtags
 (require 'rtags)
@@ -354,11 +374,11 @@ inhibit-startup-echo-area-message t)
 (if (fboundp 'prog-mode)
     (add-hook 'prog-mode-hook 'flyspell-prog-mode)
   (dolist (hook '(lisp-mode-hook emacs-lisp-mode-hook scheme-mode-hook
-                  clojure-mode-hook ruby-mode-hook yaml-mode
-                  python-mode-hook shell-mode-hook php-mode-hook
-                  css-mode-hook haskell-mode-hook caml-mode-hook
-                  nxml-mode-hook crontab-mode-hook perl-mode-hook
-                  tcl-mode-hook javascript-mode-hook))
+				 clojure-mode-hook ruby-mode-hook yaml-mode
+				 python-mode-hook shell-mode-hook php-mode-hook
+				 css-mode-hook haskell-mode-hook caml-mode-hook
+				 nxml-mode-hook crontab-mode-hook perl-mode-hook
+				 tcl-mode-hook javascript-mode-hook))
     (add-hook hook 'flyspell-prog-mode)))
 
 (dolist (hook '(text-mode-hook))
@@ -372,18 +392,18 @@ inhibit-startup-echo-area-message t)
 (defun bury-compile-buffer-if-successful (buffer string)
  "Bury a compilation buffer if succeeded without warnings "
  (when (and
-         (buffer-live-p buffer)
-         (string-match "compilation" (buffer-name buffer))
-         (string-match "finished" string)
-         (not
-          (with-current-buffer buffer
-            (goto-char (point-min))
-            (search-forward "warning" nil t))))
+	(buffer-live-p buffer)
+	(string-match "compilation" (buffer-name buffer))
+	(string-match "finished" string)
+	(not
+	 (with-current-buffer buffer
+	   (goto-char (point-min))
+	   (search-forward "warning" nil t))))
     (run-with-timer 1 nil
-                    (lambda (buf)
-                      (bury-buffer buf)
-                      (switch-to-prev-buffer (get-buffer-window buf) 'kill))
-                    buffer)))
+		    (lambda (buf)
+		      (bury-buffer buf)
+		      (switch-to-prev-buffer (get-buffer-window buf) 'kill))
+		    buffer)))
 (add-hook 'compilation-finish-functions 'bury-compile-buffer-if-successful)
 (define-key c++-mode-map (kbd "C-c RET") 'compile)
 (define-key c-mode-map (kbd "C-c RET") 'compile)
@@ -393,5 +413,5 @@ inhibit-startup-echo-area-message t)
 (global-set-key (kbd "M-g M-s") 'magit-status)
 (global-set-key (kbd "M-g M-c") 'magit-checkout)
 
-(provide '.emacs)
-;;; .emacs ends here
+(provide 'init)
+;;; init.el ends here
