@@ -1,4 +1,4 @@
-;;; Package -- Summary
+;;; setup-linum --- suppress linum selectively
 ;;; Commentary:
 ;;; pdf-tools acts wierd with linum-mode.  This package disables the
 ;;; hook with pdf-tools and a few others

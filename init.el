@@ -1,49 +1,68 @@
-;;; My emacs init File
+;;; init --- My init file for emacs
+;;; Commentary:
 
+;;; Code:
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (wheatgrass)))
- '(tool-bar-mode nil)
- '(auctex-latexmk-inherit-TeX-PDF-mode t)
- '(custom-enabled-themes (quote (wheatgrass)))
- '(display-battery-mode t)
- '(doc-view-continuous t)
- '(doc-view-scale-internally t)
- '(menu-bar-mode t)
- '(org-agenda-files (quote ("~/life.org")))
- '(pdf-view-midnight-colors (quote ("white" . "black")))
- '(scroll-bar-mode nil)
- '(send-mail-function (quote mailclient-send-it))
- '(timesheet-invoice-number 102)
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
  '(ansi-term-color-vector
    [unspecified "#FAFAFA" "#FF1744" "#66BB6A" "#F57F17" "#42A5F5" "#7E57C2" "#0097A7" "#546E7A"])
- )
+ '(auctex-latexmk-inherit-TeX-PDF-mode t)
+ '(custom-enabled-themes (quote (wheatgrass)))
+ '(custom-raised-buttons nil)
+ '(display-battery-mode t)
+ '(doc-view-continuous t)
+ '(doc-view-scale-internally t)
+ '(global-mark-ring-max 5000)
+ '(menu-bar-mode t)
+ '(org-agenda-files (quote ("~/life.org")))
+ '(package-selected-packages
+   (quote
+    (camcorder wxwidgets-help xwidgete zenburn-theme writegood-mode window-numbering wget websocket w3 vlf use-package undo-tree typing-practice transpose-frame timesheet swiper sr-speedbar sokoban smex slideview sl shut-up screenshot rudel rtags request pos-tip pacmacs org-themis org-pdfview org-ac multiple-cursors multifiles math-symbol-lists markdown-mode+ magit latex-preview-pane latex-pretty-symbols langtool julia-shell irony-eldoc ipython iedit ido-vertical-mode ido-hacks hungry-delete helm-ls-hg helm-ls-git helm-flyspell helm-flycheck helm-ctest google-c-style gnuplot gnugo ggtags flymake-checkers flycheck-pyflakes flycheck-irony flx-ido eshell-manual eshell-git-prompt esh-help ereader epresent emstar emms ducpel doctags darkroom company-shell company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex cmake-project cmake-mode cmake-ide clang-format chess cff blank-mode bash-completion auctex-latexmk arduino-mode 2048-game)))
+ '(pdf-view-midnight-colors (quote ("white" . "black")))
+ '(scroll-bar-mode nil)
+ '(send-mail-function (quote mailclient-send-it))
+ '(timesheet-invoice-number 102)
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(button ((t (:inherit default)))))
+ '(apropos-function-button ((t (:background "rosy brown" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button)))))
+ '(apropos-misc-button ((t (:background "gold" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button)))))
+ '(apropos-user-option-button ((t (:background "lawn green" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button)))))
+ '(apropos-variable-button ((t (:background "deep sky blue" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button)))))
+ '(button ((t (:background "light gray" :foreground "black" :box (:line-width 2 :color "white smoke" :style released-button)))))
+ '(custom-button ((t (:background "indian red" :foreground "black" :box (:line-width 2 :style released-button)))))
+ '(custom-button-pressed-unraised ((t (:foreground "violet" :box (:line-width 2 :color "grey75" :style released-button)))))
+ '(custom-button-unraised ((t (:box (:line-width 2 :color "grey75" :style released-button)))))
+ '(custom-variable-button ((t (:box (:line-width 2 :color "grey75" :style released-button) :underline t :weight bold))))
+ '(diary-button ((t (:box (:line-width 2 :color "grey75" :style released-button)))))
+ '(widget-button ((t (:box (:line-width 2 :color "grey75" :style released-button) :weight bold))))
+ '(widget-button-pressed ((t (:background "firebrick1" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button))))))
 
-(setq inhibit-startup-message t
-inhibit-startup-echo-area-message t)
+(setq inhibit-startup-message t)
+(setq inhibit-startup-echo-area-message t)
 
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
 			 ("marmalade" . "https://marmalade-repo.org/packages/")
 			 ("melpa" . "https://melpa.org/packages/")
-			 ("melpa_mb" . "http://melpa.milkbox.net/packages/")
+			 ;; ("melpa_mb" . "http://melpa.milkbox.net/packages/")
 			 ("org" . "http://orgmode.org/elpa/")))
+(prefer-coding-system 'utf-8)
 (require 'package)
 (package-initialize)
 
 (add-to-list 'load-path "~/.emacs.d/setup-linum/")
+
+(prefer-coding-system 'utf-8)
 
 ;; My Shortcuts
 (global-set-key (kbd "C-c C-x c") 'comment-region)
@@ -90,9 +109,10 @@ inhibit-startup-echo-area-message t)
 			  (let ((char-point
 				 (buffer-substring-no-properties
 				  start end)))
-			    (when (or (string= char-point "}")
-				      (string= char-point "$"))
-			      (TeX-fold-paragraph)))))
+			    ;; (when (or (string= char-point "}")
+			    ;; 	      (string= char-point "$"))
+			    ;;   (TeX-fold-paragraph))
+			    )))
 		      t t)))
 (add-hook 'TeX-mode-hook #'auto-fill-mode)
 
@@ -169,8 +189,8 @@ inhibit-startup-echo-area-message t)
 (require 'setup-linum)
 
 ;; Octave-mode
-(eval-after-load 'octave-mode
-  '(define-key octave-mode-map (kbd "C-c C-c") 'octave-send-buffer))
+;; (eval-after-load 'octave-mode
+;;   '(define-key octave-mode-map (kbd "C-c C-c") 'octave-send-buffer))
 
 ;; display time
 (display-time-mode t)
@@ -412,6 +432,42 @@ inhibit-startup-echo-area-message t)
 (require 'magit)
 (global-set-key (kbd "M-g M-s") 'magit-status)
 (global-set-key (kbd "M-g M-c") 'magit-checkout)
+
+;; undo-tree
+(require 'undo-tree)
+(add-hook 'after-init-hook 'undo-tree-mode)
+
+;; xwidgets-webkit browser
+(define-key xwidget-webkit-mode-map [mouse-4] 'xwidget-webkit-scroll-down)
+(define-key xwidget-webkit-mode-map [mouse-5] 'xwidget-webkit-scroll-up)
+(define-key xwidget-webkit-mode-map (kbd "<up>") 'xwidget-webkit-scroll-down)
+(define-key xwidget-webkit-mode-map (kbd "<down>") 'xwidget-webkit-scroll-up)
+(define-key xwidget-webkit-mode-map (kbd "M-w") 'xwidget-webkit-copy-selection-as-kill)
+(define-key xwidget-webkit-mode-map (kbd "C-c") 'xwidget-webkit-copy-selection-as-kill)
+
+;; adapt webkit according to window configuration chagne automatically
+;; without this hook, every time you change your window configuration,
+;; you must press 'a' to adapt webkit content to new window size
+(add-hook 'window-configuration-change-hook (lambda ()
+               (when (equal major-mode 'xwidget-webkit-mode)
+                 (xwidget-webkit-adjust-size-dispatch))))
+
+;; by default, xwidget reuses previous xwidget window,
+;; thus overriding your current website, unless a prefix argument
+;; is supplied
+;;
+;; This function always opens a new website in a new window
+(defun xwidget-browse-url-no-reuse (url &optional sessoin)
+  (interactive (progn
+                 (require 'browse-url)
+                 (browse-url-interactive-arg "xwidget-webkit URL: "
+                                             )))
+  (xwidget-webkit-browse-url url t))
+
+;; make xwidget default browser
+(setq browse-url-browser-function (lambda (url session)
+                    (other-window 1)
+                    (xwidget-browse-url-no-reuse url)))
 
 (provide 'init)
 ;;; init.el ends here
