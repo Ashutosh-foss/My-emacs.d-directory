@@ -283,7 +283,7 @@ Install toolbar buttons for LaTeX mode.
 ;;;### (autoloads nil "tex-fold" "tex-fold.el" (22667 34687 912273
 ;;;;;;  252000))
 ;;; Generated autoloads from tex-fold.el
- (autoload 'TeX-fold-mode "tex-fold" "Minor mode for hiding and revealing macros and environments." t)
+(autoload 'TeX-fold-mode "tex-fold" "Minor mode for hiding and revealing macros and environments." t)
 
 (defalias 'tex-fold-mode 'TeX-fold-mode)
 

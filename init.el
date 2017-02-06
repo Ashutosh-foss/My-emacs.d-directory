@@ -7,6 +7,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(LaTeX-command "latex")
+ '(LaTeX-section-label
+   (quote
+    (("part" . "part:")
+     ("chapter" . "chap:")
+     ("section" . "sec:")
+     ("subsection" . "ssec:")
+     ("subsubsection" . "sssec:"))))
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
@@ -21,10 +29,9 @@
  '(doc-view-scale-internally t)
  '(global-mark-ring-max 5000)
  '(menu-bar-mode t)
- '(org-agenda-files (quote ("~/life.org")))
  '(package-selected-packages
    (quote
-    (camcorder wxwidgets-help xwidgete zenburn-theme writegood-mode window-numbering wget websocket w3 vlf use-package undo-tree typing-practice transpose-frame timesheet swiper sr-speedbar sokoban smex slideview sl shut-up screenshot rudel rtags request pos-tip pacmacs org-themis org-pdfview org-ac multiple-cursors multifiles math-symbol-lists markdown-mode+ magit latex-preview-pane latex-pretty-symbols langtool julia-shell irony-eldoc ipython iedit ido-vertical-mode ido-hacks hungry-delete helm-ls-hg helm-ls-git helm-flyspell helm-flycheck helm-ctest google-c-style gnuplot gnugo ggtags flymake-checkers flycheck-pyflakes flycheck-irony flx-ido eshell-manual eshell-git-prompt esh-help ereader epresent emstar emms ducpel doctags darkroom company-shell company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex cmake-project cmake-mode cmake-ide clang-format chess cff blank-mode bash-completion auctex-latexmk arduino-mode 2048-game)))
+    (twilight-anti-bright-theme typing-game typit highlight-tail annoying-arrows-mode org2blog xml-rpc volatile-highlights duplicate-thing clean-aindent-mode expand-region dired+ ztree flycheck-tip discover-my-major golden-ratio nyan-mode smartparens wxwidgets-help xwidgete zenburn-theme writegood-mode window-numbering wget websocket w3 vlf use-package undo-tree typing-practice transpose-frame timesheet swiper sr-speedbar sokoban smex slideview sl shut-up screenshot rudel rtags request pos-tip pacmacs org-themis org-pdfview org-ac multiple-cursors multifiles math-symbol-lists markdown-mode+ magit latex-preview-pane latex-pretty-symbols langtool julia-shell irony-eldoc ipython iedit ido-vertical-mode ido-hacks hungry-delete helm-ls-hg helm-ls-git helm-flyspell helm-flycheck helm-ctest google-c-style gnuplot gnugo ggtags flymake-checkers flycheck-pyflakes flycheck-irony flx-ido eshell-manual eshell-git-prompt esh-help ereader epresent emstar emms ducpel doctags darkroom company-shell company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex cmake-project cmake-mode cmake-ide clang-format chess cff blank-mode bash-completion auctex-latexmk arduino-mode 2048-game)))
  '(pdf-view-midnight-colors (quote ("white" . "black")))
  '(scroll-bar-mode nil)
  '(send-mail-function (quote mailclient-send-it))
@@ -53,16 +60,17 @@
 
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
 			 ("marmalade" . "https://marmalade-repo.org/packages/")
-			 ("melpa" . "https://melpa.org/packages/")
-			 ;; ("melpa_mb" . "http://melpa.milkbox.net/packages/")
+			 ;; ("melpa" . "https://melpa.org/packages/")
+			 ("melpa_mb" . "http://melpa.milkbox.net/packages/")
 			 ("org" . "http://orgmode.org/elpa/")))
 (prefer-coding-system 'utf-8)
 (require 'package)
+;; (defvar package-check-signature)
+;; (setq package-check-signature nil)
 (package-initialize)
+(setq load-prefer-newer t)
 
 (add-to-list 'load-path "~/.emacs.d/setup-linum/")
-
-(prefer-coding-system 'utf-8)
 
 ;; My Shortcuts
 (global-set-key (kbd "C-c C-x c") 'comment-region)
@@ -79,6 +87,7 @@
 (define-key emacs-lisp-mode-map (kbd "C-c C-b") 'eval-buffer)
 
 ;; Org-Mode
+(require 'org)
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
@@ -96,9 +105,11 @@
 (global-set-key (kbd "C-x m") 'mc/edit-lines)
 
 ;; AucTeX
+(require 'tex)
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq-default TeX-master nil)
+(require 'tex-fold)
 (add-hook 'TeX-mode-hook
 	  (lambda ()
 	    (TeX-fold-mode 1)
@@ -109,9 +120,9 @@
 			  (let ((char-point
 				 (buffer-substring-no-properties
 				  start end)))
-			    ;; (when (or (string= char-point "}")
-			    ;; 	      (string= char-point "$"))
-			    ;;   (TeX-fold-paragraph))
+			    (when (or (string= char-point "}")
+			    	      (string= char-point "$"))
+			      (TeX-fold-paragraph))
 			    )))
 		      t t)))
 (add-hook 'TeX-mode-hook #'auto-fill-mode)
@@ -175,29 +186,20 @@
 ;; sr-speedbar
 (global-set-key (kbd "C-c s") 'sr-speedbar-toggle)
 
-;; company
-;; (require 'company)
-;; (add-hook 'after-init-hook 'global-company-mode)
-;; (setq company-backends (delete 'company-semantic company-backends))
-;; (setq company-backends (delete 'company-cmake company-backends))
-;; (add-to-list 'company-backends 'company-gtags)
-;; (add-to-list 'company-backends 'company-c-headers)
-;; (add-to-list 'company-backends 'company-clang)
-
 ;; setup-linum
-(load "setup-linum")
+(load-file "~/.emacs.d/setup-linum/setup-linum.elc")
 (require 'setup-linum)
 
 ;; Octave-mode
-;; (eval-after-load 'octave-mode
-;;   '(define-key octave-mode-map (kbd "C-c C-c") 'octave-send-buffer))
+;; (defvar octave-mode-map)
+(require 'octave)
+(define-key octave-mode-map (kbd "C-c C-c") 'octave-mode-buffer)
 
 ;; display time
 (display-time-mode t)
 
-;; .emacs
+;; emacs init file
 (find-file "~/.emacs.d/init.el")
-(org-agenda nil "a")
 (require 'preview)
 
 ;; imaxima
@@ -326,6 +328,7 @@
 (add-hook 'objc-mode-hook 'irony-mode)
 
 (defun my-irony-mode-hook ()
+  "."
   (define-key irony-mode-map [remap completion-at-point]
     'irony-completion-at-point-async)
   (define-key irony-mode-map [remap complete-symbol]
@@ -410,7 +413,7 @@
 
 ;; Auto-hide compilation buffer upon success
 (defun bury-compile-buffer-if-successful (buffer string)
- "Bury a compilation buffer if succeeded without warnings "
+ "Bury a compilation BUFFER if succeeded without warnings (STRING has finished)."
  (when (and
 	(buffer-live-p buffer)
 	(string-match "compilation" (buffer-name buffer))
@@ -438,6 +441,8 @@
 (add-hook 'after-init-hook 'undo-tree-mode)
 
 ;; xwidgets-webkit browser
+(require 'xwidget)
+;; (defvar xwidget-webkit-mode-map)
 (define-key xwidget-webkit-mode-map [mouse-4] 'xwidget-webkit-scroll-down)
 (define-key xwidget-webkit-mode-map [mouse-5] 'xwidget-webkit-scroll-up)
 (define-key xwidget-webkit-mode-map (kbd "<up>") 'xwidget-webkit-scroll-down)
@@ -465,9 +470,82 @@
   (xwidget-webkit-browse-url url t))
 
 ;; make xwidget default browser
+;; (require 'xwidgete)
 (setq browse-url-browser-function (lambda (url session)
                     (other-window 1)
                     (xwidget-browse-url-no-reuse url)))
+
+;; workgroups2
+;; (require 'workgroups2)
+;; (workgroups-mode 1)
+
+;; duplicate-thing
+(require 'duplicate-thing)
+(global-set-key (kbd "M-c") 'duplicate-thing)
+
+;; volatile-highlights
+(require 'volatile-highlights)
+(volatile-highlights-mode 1)
+
+;; golden-ratio
+(require 'golden-ratio)
+(setq golden-ratio-exclude-modes '("ediff-mode"
+                                   "gud-mode"
+                                   "gdb-locals-mode"
+                                   "gdb-registers-mode"
+                                   "gdb-breakpoints-mode"
+                                   "gdb-threads-mode"
+                                   "gdb-frames-mode"
+                                   "gdb-inferior-io-mode"
+                                   "gud-mode"
+                                   "gdb-inferior-io-mode"
+                                   "gdb-disassembly-mode"
+                                   "gdb-memory-mode"
+                                   "magit-log-mode"
+                                   "magit-reflog-mode"
+                                   "magit-status-mode"
+                                   "IELM"
+                                   "eshell-mode"
+				   "dired-mode"))
+(defun pl/helm-alive-p ()
+  "Inhibit golden-ratio if helm is active."
+  (if (boundp 'helm-alive-p)
+      (symbol-value 'helm-alive-p)))
+(add-to-list 'golden-ratio-inhibit-functions 'pl/helm-alive-p)
+(golden-ratio-mode 1)
+
+;; nyan-mode
+(require 'nyan-mode)
+;; (case window-system
+;;   ((x w32) (setq nyan-mode t) ) )
+(setq nyan-mode t)
+(setq nyan-wavy-trail t)
+(setq nyan-animate-nyancat t)
+(nyan-refresh)
+
+;; dired+
+(require 'dired+)
+(setq diredp-hide-details-initially-flag nil)
+
+;; visible bell
+(setq visible-bell 1)
+
+;; auto compile
+;; (require 'auto-compile)
+;; (add-hook 'emacs-lisp-mode-hook 'auto-compile-on-load-mode)
+
+;; highlight-tail mode
+(require 'highlight-tail)
+(highlight-tail-mode)
+(setq highlight-tail-colors '(("black" . 0)
+			      ("#bc2525" . 25)
+			      ("black" . 66)))
+(highlight-tail-reload)
+(message "highligh-tail mode done!")
+
+;; annoying arrows
+(require 'annoying-arrows-mode)
+(annoying-arrows-mode t)
 
 (provide 'init)
 ;;; init.el ends here
