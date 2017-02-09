@@ -928,7 +928,7 @@ the object file's name just above."
   "Return the compile command to use for DIR."
   (cond (cmake-ide-compile-command cmake-ide-compile-command)
         ((file-exists-p (expand-file-name "build.ninja" dir)) (concat cmake-ide-ninja-command " -C " dir))
-        ((file-exists-p (expand-file-name "Makefile" dir)) (concat cmake-ide-make-command " -C " dir))
+        ((file-exists-p (expand-file-name "Makefile" dir)) (concat cmake-ide-make-command " -C " dir " install"))
         (t nil)))
 
 

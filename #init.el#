@@ -24,49 +24,19 @@
  '(auctex-latexmk-inherit-TeX-PDF-mode t)
  '(custom-enabled-themes (quote (wheatgrass)))
  '(custom-raised-buttons nil)
- '(custom-safe-themes
-   (quote
-    ("9d91458c4ad7c74cf946bd97ad085c0f6a40c370ac0a1cbeb2e3879f15b40553" "5e2dc1360a92bb73dafa11c46ba0f30fa5f49df887a8ede4e3533c3ab6270e08" "aae95fc700f9f7ff70efbc294fc7367376aa9456356ae36ec234751040ed9168" default)))
  '(display-battery-mode t)
  '(doc-view-continuous t)
  '(doc-view-scale-internally t)
- '(fci-rule-character-color "#192028")
- '(fci-rule-color "#192028")
  '(global-mark-ring-max 5000)
  '(menu-bar-mode t)
- '(nrepl-message-colors
-   (quote
-    ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (ace-window planet-theme lush-theme gotham-theme distinguished-theme twilight-anti-bright-theme typing-game typit highlight-tail annoying-arrows-mode org2blog xml-rpc volatile-highlights duplicate-thing clean-aindent-mode expand-region dired+ ztree flycheck-tip discover-my-major golden-ratio nyan-mode smartparens wxwidgets-help xwidgete zenburn-theme writegood-mode window-numbering wget websocket w3 vlf use-package undo-tree typing-practice transpose-frame timesheet swiper sr-speedbar sokoban smex slideview sl shut-up screenshot rudel rtags request pos-tip pacmacs org-themis org-pdfview org-ac multiple-cursors multifiles math-symbol-lists markdown-mode+ magit latex-preview-pane latex-pretty-symbols langtool julia-shell irony-eldoc ipython iedit ido-vertical-mode ido-hacks hungry-delete helm-ls-hg helm-ls-git helm-flyspell helm-flycheck helm-ctest google-c-style gnuplot gnugo ggtags flymake-checkers flycheck-pyflakes flycheck-irony flx-ido eshell-manual eshell-git-prompt esh-help ereader epresent emstar emms ducpel doctags darkroom company-shell company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex cmake-project cmake-mode cmake-ide clang-format chess cff blank-mode bash-completion auctex-latexmk arduino-mode 2048-game)))
+    (twilight-anti-bright-theme typing-game typit highlight-tail annoying-arrows-mode org2blog xml-rpc volatile-highlights duplicate-thing clean-aindent-mode expand-region dired+ ztree flycheck-tip discover-my-major golden-ratio nyan-mode smartparens wxwidgets-help xwidgete zenburn-theme writegood-mode window-numbering wget websocket w3 vlf use-package undo-tree typing-practice transpose-frame timesheet swiper sr-speedbar sokoban smex slideview sl shut-up screenshot rudel rtags request pos-tip pacmacs org-themis org-pdfview org-ac multiple-cursors multifiles math-symbol-lists markdown-mode+ magit latex-preview-pane latex-pretty-symbols langtool julia-shell irony-eldoc ipython iedit ido-vertical-mode ido-hacks hungry-delete helm-ls-hg helm-ls-git helm-flyspell helm-flycheck helm-ctest google-c-style gnuplot gnugo ggtags flymake-checkers flycheck-pyflakes flycheck-irony flx-ido eshell-manual eshell-git-prompt esh-help ereader epresent emstar emms ducpel doctags darkroom company-shell company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex cmake-project cmake-mode cmake-ide clang-format chess cff blank-mode bash-completion auctex-latexmk arduino-mode 2048-game)))
  '(pdf-view-midnight-colors (quote ("white" . "black")))
  '(scroll-bar-mode nil)
  '(send-mail-function (quote mailclient-send-it))
  '(timesheet-invoice-number 102)
- '(tool-bar-mode nil)
- '(vc-annotate-background "#2B2B2B")
- '(vc-annotate-color-map
-   (quote
-    ((20 . "#BC8383")
-     (40 . "#CC9393")
-     (60 . "#DFAF8F")
-     (80 . "#D0BF8F")
-     (100 . "#E0CF9F")
-     (120 . "#F0DFAF")
-     (140 . "#5F7F5F")
-     (160 . "#7F9F7F")
-     (180 . "#8FB28F")
-     (200 . "#9FC59F")
-     (220 . "#AFD8AF")
-     (240 . "#BFEBBF")
-     (260 . "#93E0E3")
-     (280 . "#6CA0A3")
-     (300 . "#7CB8BB")
-     (320 . "#8CD0D3")
-     (340 . "#94BFF3")
-     (360 . "#DC8CC3"))))
- '(vc-annotate-very-old-color "#DC8CC3"))
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -566,7 +536,7 @@
 
 ;; highlight-tail mode
 (require 'highlight-tail)
-(highlight-tail-mode)
+(highlight-tail-mode t)
 (setq highlight-tail-colors '(("black" . 0)
 			      ("#bc2525" . 25)
 			      ("black" . 66)))
@@ -576,9 +546,6 @@
 ;; annoying arrows
 (require 'annoying-arrows-mode)
 (annoying-arrows-mode t)
-
-;; ace-window
-;; (global-set-key (kbd "C-x o") 'ace-window)
 
 (provide 'init)
 ;;; init.el ends here
