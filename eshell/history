@@ -1,14 +1,3 @@
-./Main 
-make Main
-./Main 
-make Main
-./Main 
-make Main
-./Main 
-make Main
-./Main 
-make Main
-cd ..
 cd ostrstream/
 make Main
 make Main
@@ -125,4 +114,15 @@ eog 01.JPG
 mv 01.JPG gps.jpg
 exit
 ls
+exit
+ls
+exit
+ls
+exit
+cd ../tests/
+ls
+Rfem -n10 > op10
+less op10
+Rfem -n10 > op10
+cat op10
 exit

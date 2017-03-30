@@ -4,3 +4,9 @@
 [submodule "html-preview"]
 	path = html-preview
 	url = https://github.com/punchagan/html-preview.git
+[submodule "workgroups2"]
+	path = workgroups2
+	url = https://github.com/pashinin/workgroups2.git
+[submodule "irony-mode"]
+	path = irony-mode
+	url = https://github.com/Sarcasm/irony-mode.git

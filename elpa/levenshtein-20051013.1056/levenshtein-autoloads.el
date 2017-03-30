@@ -1,10 +1,12 @@
 ;;; levenshtein-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil nil ("levenshtein.el") (22672 58450 868392
-;;;;;;  356000))
+;;;### (autoloads nil "levenshtein" "levenshtein.el" (0 0 0 0))
+;;; Generated autoloads from levenshtein.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "levenshtein" '("levenshtein-distance")))
 
 ;;;***
 

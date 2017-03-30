@@ -15,35 +15,32 @@
      ("section" . "sec:")
      ("subsection" . "ssec:")
      ("subsubsection" . "sssec:"))))
- '(ansi-color-faces-vector
-   [default default default italic underline success warning error])
  '(ansi-color-names-vector
-   ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
+   ["#14191f" "#d15120" "#81af34" "#deae3e" "#7e9fc9" "#a878b5" "#7e9fc9" "#dcdddd"])
  '(ansi-term-color-vector
-   [unspecified "#FAFAFA" "#FF1744" "#66BB6A" "#F57F17" "#42A5F5" "#7E57C2" "#0097A7" "#546E7A"])
- '(auctex-latexmk-inherit-TeX-PDF-mode t)
+   [unspecified "#14191f" "#d15120" "#81af34" "#deae3e" "#7e9fc9" "#a878b5" "#7e9fc9" "#dcdddd"])
  '(custom-enabled-themes (quote (wheatgrass)))
- '(custom-raised-buttons nil)
  '(custom-safe-themes
    (quote
-    ("9d91458c4ad7c74cf946bd97ad085c0f6a40c370ac0a1cbeb2e3879f15b40553" "5e2dc1360a92bb73dafa11c46ba0f30fa5f49df887a8ede4e3533c3ab6270e08" "aae95fc700f9f7ff70efbc294fc7367376aa9456356ae36ec234751040ed9168" default)))
+    ("4fc7f95b03416aa4270cdeefecc45f3153b8ceadef2e8d5722dce63d1bf83400" "aae95fc700f9f7ff70efbc294fc7367376aa9456356ae36ec234751040ed9168" "5e2dc1360a92bb73dafa11c46ba0f30fa5f49df887a8ede4e3533c3ab6270e08" default)))
  '(display-battery-mode t)
- '(doc-view-continuous t)
- '(doc-view-scale-internally t)
+ '(display-time-mode t)
  '(fci-rule-character-color "#192028")
  '(fci-rule-color "#192028")
- '(global-mark-ring-max 5000)
+ '(global-font-lock-mode t)
  '(menu-bar-mode t)
  '(nrepl-message-colors
    (quote
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(package-selected-packages
    (quote
-    (ace-window planet-theme lush-theme gotham-theme distinguished-theme twilight-anti-bright-theme typing-game typit highlight-tail annoying-arrows-mode org2blog xml-rpc volatile-highlights duplicate-thing clean-aindent-mode expand-region dired+ ztree flycheck-tip discover-my-major golden-ratio nyan-mode smartparens wxwidgets-help xwidgete zenburn-theme writegood-mode window-numbering wget websocket w3 vlf use-package undo-tree typing-practice transpose-frame timesheet swiper sr-speedbar sokoban smex slideview sl shut-up screenshot rudel rtags request pos-tip pacmacs org-themis org-pdfview org-ac multiple-cursors multifiles math-symbol-lists markdown-mode+ magit latex-preview-pane latex-pretty-symbols langtool julia-shell irony-eldoc ipython iedit ido-vertical-mode ido-hacks hungry-delete helm-ls-hg helm-ls-git helm-flyspell helm-flycheck helm-ctest google-c-style gnuplot gnugo ggtags flymake-checkers flycheck-pyflakes flycheck-irony flx-ido eshell-manual eshell-git-prompt esh-help ereader epresent emstar emms ducpel doctags darkroom company-shell company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex cmake-project cmake-mode cmake-ide clang-format chess cff blank-mode bash-completion auctex-latexmk arduino-mode 2048-game)))
+    (djvu matlab-mode helm-w3m ztree zenburn-theme xwidgete wxwidgets-help writegood-mode window-numbering wget websocket w3 volatile-highlights vlf use-package undo-tree typit typing-practice typing-game twilight-anti-bright-theme transpose-frame timesheet swiper sr-speedbar sokoban smex smartparens slideview sl shut-up screenshot rudel request pacmacs org2blog org-themis org-pdfview org-ac nyan-mode multiple-cursors multifiles math-symbol-lists markdown-mode+ magit levenshtein latex-preview-pane latex-pretty-symbols langtool julia-shell irony-eldoc ipython iedit ido-vertical-mode ido-hacks hungry-delete highlight-tail helm-ls-hg helm-ls-git helm-flyspell helm-flycheck helm-ctest helm-company google-c-style golden-ratio gnuplot gnugo ggtags flymake-checkers flycheck-tip flycheck-pyflakes flycheck-irony flx-ido fish-mode expand-region eshell-manual eshell-git-prompt esh-help ereader epresent emstar emms duplicate-thing ducpel doctags distinguished-theme discover-my-major dired+ darkroom company-shell company-quickhelp company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex cmake-project cmake-mode clean-aindent-mode clang-format chess cff blank-mode bash-completion auctex-latexmk arduino-mode annoying-arrows-mode anaphora ace-window 2048-game)))
  '(pdf-view-midnight-colors (quote ("white" . "black")))
+ '(safe-local-variable-values
+   (quote
+    ((cmake-ide-cmake-command-flags "-DCMAKE_INSTALL_PREFIX=~/mysw" "-DCMAKE_BUILD_TYPE=Release")
+     (cmake-ide-cmake-command-flags "-DCMAKE_INSTALL_PREFIX=~/mysw" "-DCMAKE_BUILD_TYPE=Debug"))))
  '(scroll-bar-mode nil)
- '(send-mail-function (quote mailclient-send-it))
- '(timesheet-invoice-number 102)
  '(tool-bar-mode nil)
  '(vc-annotate-background "#2B2B2B")
  '(vc-annotate-color-map
@@ -72,18 +69,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(apropos-function-button ((t (:background "rosy brown" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button)))))
- '(apropos-misc-button ((t (:background "gold" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button)))))
- '(apropos-user-option-button ((t (:background "lawn green" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button)))))
- '(apropos-variable-button ((t (:background "deep sky blue" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button)))))
- '(button ((t (:background "light gray" :foreground "black" :box (:line-width 2 :color "white smoke" :style released-button)))))
- '(custom-button ((t (:background "indian red" :foreground "black" :box (:line-width 2 :style released-button)))))
- '(custom-button-pressed-unraised ((t (:foreground "violet" :box (:line-width 2 :color "grey75" :style released-button)))))
- '(custom-button-unraised ((t (:box (:line-width 2 :color "grey75" :style released-button)))))
- '(custom-variable-button ((t (:box (:line-width 2 :color "grey75" :style released-button) :underline t :weight bold))))
- '(diary-button ((t (:box (:line-width 2 :color "grey75" :style released-button)))))
- '(widget-button ((t (:box (:line-width 2 :color "grey75" :style released-button) :weight bold))))
- '(widget-button-pressed ((t (:background "firebrick1" :foreground "black" :box (:line-width 2 :color "grey75" :style released-button))))))
+ )
 
 (setq inhibit-startup-message t)
 (setq inhibit-startup-echo-area-message t)
@@ -97,9 +83,15 @@
 (require 'package)
 ;; (defvar package-check-signature)
 ;; (setq package-check-signature nil)
+
 (package-initialize)
 (setq load-prefer-newer t)
 
+(add-to-list 'load-path "/home/nidish_ubuntu1604/.emacs.d/cmake-ide")
+(add-to-list 'load-path "/home/nidish_ubuntu1604/.emacs.d/irony-mode")
+(add-to-list 'load-path "/home/nidish_ubuntu1604/.emacs.d/sow")
+(add-to-list 'load-path "/home/nidish_ubuntu1604/.emacs.d/workgroups2/src")
+(add-to-list 'load-path "/home/nidish_ubuntu1604/Software_Tools/rtags/src")
 (add-to-list 'load-path "~/.emacs.d/setup-linum/")
 
 ;; My Shortcuts
@@ -107,7 +99,6 @@
 (global-set-key (kbd "C-c C-x u") 'uncomment-region)
 (global-set-key (kbd "M-s M-s") 'shell-script-mode)
 (global-set-key (kbd "M-s RET") 'ansi-term)
-(global-set-key (kbd "C-x C-a") 'global-auto-complete-mode)
 (global-set-key (kbd "C-x t") 'transpose-frame)
 (global-set-key (kbd "C-x c") 'compile)
 (global-set-key (kbd "C-x p") (kbd "C-u -1 C-x o"))
@@ -166,6 +157,8 @@
 
 ;; pdf-tools
 (pdf-tools-install)
+(require 'sow)
+(sow-mode t)
 
 ;; pdf-info-synctex-forward-search
 ;; Use pdf-tools to open PDF files
@@ -217,7 +210,6 @@
 (global-set-key (kbd "C-c s") 'sr-speedbar-toggle)
 
 ;; setup-linum
-(load-file "~/.emacs.d/setup-linum/setup-linum.elc")
 (require 'setup-linum)
 
 ;; Octave-mode
@@ -233,7 +225,7 @@
 (require 'preview)
 
 ;; imaxima
-(add-to-list 'load-path "/usr/share/maxima/5.37.2/emacs")
+(add-to-list 'load-path "/home/nidish_ubuntu1604/mysw/share/maxima/branch_5_39_base_170_ga91c576/emacs")
 (autoload 'maxima-mode "maxima" "Maxima mode" t)
 (autoload 'imaxima "imaxima" "Frontend for maxima with Image support" t)
 (autoload 'maxima "maxima" "Maxima interaction" t)
@@ -244,10 +236,11 @@
 
 ;; (define-key maxima-mode-map [C-tab] 'maxima-complete)
 ;; (define-key inferior-maxima-mode-map [(tab)] 'maxima-complete)
+(autoload 'emaxima-mode "emaxima" "Emaxima" t)
+(add-hook 'emaxima-mode-hook 'emaxima-mark-file-as-emaxima)
 (setq emaxima-abbreviations-allowed t)
 
 ;; emms
-(add-to-list 'load-path "/home/nidish_ubuntu1604/.emacs.d/elpa/emms-20160801.1349")
 (require 'emms-setup)
 (emms-all)
 (emms-default-players)
@@ -330,15 +323,50 @@
 (rtags-diagnostics)
 (setq rtags-completions-enabled t)
 (rtags-enable-standard-keybindings)
-(require 'rtags-helm)
-(setq rtags-use-helm t)
+
+;; (require 'rtags-helm)
+;; (setq rtags-use-helm t)
+(setq rtags-use-helm 0)
+(eval-after-load 'cc-mode
+  '(progn
+     (require 'rtags)
+     (mapc (lambda (x)
+             (define-key c-mode-base-map
+               (kbd (concat "C-c r " (car x))) (cdr x)))
+           '(("." . rtags-find-symbol-at-point)
+             ("," . rtags-find-references-at-point)
+             ("v" . rtags-find-virtuals-at-point)
+             ("V" . rtags-print-enum-value-at-point)
+             ("/" . rtags-find-all-references-at-point)
+             ("Y" . rtags-cycle-overlays-on-screen)
+             (">" . rtags-find-symbol)
+             ("<" . rtags-find-references)
+             ("-" . rtags-location-stack-back)
+             ("+" . rtags-location-stack-forward)
+             ("D" . rtags-diagnostics)
+             ("G" . rtags-guess-function-at-point)
+             ("p" . rtags-set-current-project)
+             ("P" . rtags-print-dependencies)
+             ("e" . rtags-reparse-file)
+             ("E" . rtags-preprocess-file)
+             ("R" . rtags-rename-symbol)
+             ("M" . rtags-symbol-info)
+             ("S" . rtags-display-summary)
+             ("O" . rtags-goto-offset)
+             (";" . rtags-find-file)
+             ("F" . rtags-fixit)
+             ("X" . rtags-fix-fixit-at-point)
+             ("B" . rtags-show-rtags-buffer)
+             ("I" . rtags-imenu)
+             ("T" . rtags-taglist)
+	     ("q" . rtags-quit-rdm) ))))
 
 ;; flycheck
 (require 'flycheck)
 (add-hook 'c++-mode-hook 'flycheck-mode)
 (add-hook 'c-mode-hook 'flycheck-mode)
 (global-flycheck-mode t)
-(require 'flycheck-pyflakes)
+;; (require 'flycheck-pyflakes)
 (require 'helm-flycheck) ;; Not necessary if using ELPA package
 (eval-after-load 'flycheck
   '(define-key flycheck-mode-map (kbd "C-c ! h") 'helm-flycheck))
@@ -353,6 +381,7 @@
 (add-hook 'c-mode-common-hook #'my-flycheck-rtags-setup)
 
 ;; irony-mode
+(require 'irony)
 (add-hook 'c++-mode-hook 'irony-mode)
 (add-hook 'c-mode-hook 'irony-mode)
 (add-hook 'objc-mode-hook 'irony-mode)
@@ -379,8 +408,9 @@
 (require 'company-rtags)
 
 (add-hook 'irony-mode-hook 'company-irony-setup-begin-commands)
-(setq company-backends (delete 'company-semantic
-			       company-backends))
+
+;; (setq company-backends (delete 'company-semantic
+;; 			       company-backends))
 (require 'company-irony-c-headers)
 (eval-after-load 'company
   '(add-to-list
@@ -390,13 +420,39 @@
 (define-key c-mode-map [C-tab] 'company-complete)
 (define-key c++-mode-map [C-tab] 'company-complete)
 
+(eval-after-load 'company
+  '(progn
+     (define-key company-mode-map (kbd "C-:") 'helm-company)
+     (define-key company-active-map (kbd "C-:") 'helm-company)))
+(define-key company-active-map (kbd "C-n") (lambda () (interactive) (company-complete-common-or-cycle 1)))
+(define-key company-active-map (kbd "C-p") (lambda () (interactive) (company-complete-common-or-cycle -1)))
+
+(defvar company-mode/enable-yas t
+  "Enable yasnippet for all backends.")
+
+(defun company-mode/backend-with-yas (backend)
+  (if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
+      backend
+    (append (if (consp backend) backend (list backend))
+            '(:with company-yasnippet))))
+(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
+
+;; company-auctex
+(company-auctex-init)
+
+;; company-quickhelp
+(require 'company-quickhelp)
+(company-quickhelp-mode 1)
+
 ;; Setup cmake-ide
+;; (load "~/.emacs.d/cmake-ide")
 (require 'cmake-ide)
 (cmake-ide-setup)
 (setq cmake-ide-flags-c++ (append '("std-c++11")))
 (global-set-key (kbd "C-c m") 'cmake-ide-compile)
 
 (defun maybe-cmake-project-hook ()
+  "Enable cmake project mode if CMakeLists.txt exists."
   (if (file-exists-p "CMakeLists.txt") (cmake-project-mode)))
 (add-hook 'c-mode-hook 'maybe-cmake-project-hook)
 (add-hook 'c++-mode-hook 'maybe-cmake-project-hook)
@@ -418,21 +474,20 @@
   "Custom function to spell check next highlighted word."
   (interactive)
   (flyspell-goto-next-error)
-  (ispell-word)
-  )
-(add-hook 'c++-mode-hook  'flyspell-prog-mode)
-(add-hook 'c-mode-common-hook 'flyspell-prog-mode)
+  (ispell-word))
+;; (add-hook 'c++-mode-hook  'flyspell-prog-mode)
+;; (add-hook 'c-mode-common-hook 'flyspell-prog-mode)
 (add-hook 'LaTeX-mode-hook 'flyspell-mode)
 
-(if (fboundp 'prog-mode)
-    (add-hook 'prog-mode-hook 'flyspell-prog-mode)
-  (dolist (hook '(lisp-mode-hook emacs-lisp-mode-hook scheme-mode-hook
-				 clojure-mode-hook ruby-mode-hook yaml-mode
-				 python-mode-hook shell-mode-hook php-mode-hook
-				 css-mode-hook haskell-mode-hook caml-mode-hook
-				 nxml-mode-hook crontab-mode-hook perl-mode-hook
-				 tcl-mode-hook javascript-mode-hook))
-    (add-hook hook 'flyspell-prog-mode)))
+;; (if (fboundp 'prog-mode)
+;;     (add-hook 'prog-mode-hook 'flyspell-prog-mode)
+;;   (dolist (hook '(lisp-mode-hook emacs-lisp-mode-hook scheme-mode-hook
+;; 				 clojure-mode-hook ruby-mode-hook yaml-mode
+;; 				 python-mode-hook shell-mode-hook php-mode-hook
+;; 				 css-mode-hook haskell-mode-hook caml-mode-hook
+;; 				 nxml-mode-hook crontab-mode-hook perl-mode-hook
+;; 				 tcl-mode-hook javascript-mode-hook))
+;;     (add-hook hook 'flyspell-prog-mode)))
 
 (dolist (hook '(text-mode-hook))
   (add-hook hook (lambda () (flyspell-mode 1))))
@@ -470,44 +525,9 @@
 (require 'undo-tree)
 (add-hook 'after-init-hook 'undo-tree-mode)
 
-;; xwidgets-webkit browser
-(require 'xwidget)
-;; (defvar xwidget-webkit-mode-map)
-(define-key xwidget-webkit-mode-map [mouse-4] 'xwidget-webkit-scroll-down)
-(define-key xwidget-webkit-mode-map [mouse-5] 'xwidget-webkit-scroll-up)
-(define-key xwidget-webkit-mode-map (kbd "<up>") 'xwidget-webkit-scroll-down)
-(define-key xwidget-webkit-mode-map (kbd "<down>") 'xwidget-webkit-scroll-up)
-(define-key xwidget-webkit-mode-map (kbd "M-w") 'xwidget-webkit-copy-selection-as-kill)
-(define-key xwidget-webkit-mode-map (kbd "C-c") 'xwidget-webkit-copy-selection-as-kill)
-
-;; adapt webkit according to window configuration chagne automatically
-;; without this hook, every time you change your window configuration,
-;; you must press 'a' to adapt webkit content to new window size
-(add-hook 'window-configuration-change-hook (lambda ()
-               (when (equal major-mode 'xwidget-webkit-mode)
-                 (xwidget-webkit-adjust-size-dispatch))))
-
-;; by default, xwidget reuses previous xwidget window,
-;; thus overriding your current website, unless a prefix argument
-;; is supplied
-;;
-;; This function always opens a new website in a new window
-(defun xwidget-browse-url-no-reuse (url &optional sessoin)
-  (interactive (progn
-                 (require 'browse-url)
-                 (browse-url-interactive-arg "xwidget-webkit URL: "
-                                             )))
-  (xwidget-webkit-browse-url url t))
-
-;; make xwidget default browser
-;; (require 'xwidgete)
-(setq browse-url-browser-function (lambda (url session)
-                    (other-window 1)
-                    (xwidget-browse-url-no-reuse url)))
-
 ;; workgroups2
-;; (require 'workgroups2)
-;; (workgroups-mode 1)
+(require 'workgroups2)
+(workgroups-mode 1)
 
 ;; duplicate-thing
 (require 'duplicate-thing)
@@ -536,7 +556,11 @@
                                    "magit-status-mode"
                                    "IELM"
                                    "eshell-mode"
-				   "dired-mode"))
+				   "dired-mode"
+				   "latex-mode"
+				   "pdf-view-mode"
+				   "emaxima-mode"
+				   ))
 (defun pl/helm-alive-p ()
   "Inhibit golden-ratio if helm is active."
   (if (boundp 'helm-alive-p)
@@ -549,7 +573,6 @@
 ;; (case window-system
 ;;   ((x w32) (setq nyan-mode t) ) )
 (setq nyan-mode t)
-(setq nyan-wavy-trail t)
 (setq nyan-animate-nyancat t)
 (nyan-refresh)
 
@@ -564,21 +587,22 @@
 ;; (require 'auto-compile)
 ;; (add-hook 'emacs-lisp-mode-hook 'auto-compile-on-load-mode)
 
-;; highlight-tail mode
-(require 'highlight-tail)
-(highlight-tail-mode)
-(setq highlight-tail-colors '(("black" . 0)
-			      ("#bc2525" . 25)
-			      ("black" . 66)))
-(highlight-tail-reload)
-(message "highligh-tail mode done!")
-
-;; annoying arrows
-(require 'annoying-arrows-mode)
-(annoying-arrows-mode t)
-
 ;; ace-window
 ;; (global-set-key (kbd "C-x o") 'ace-window)
+
+(add-to-list 'auto-mode-alist '("\\.cfg\\'" . c-mode))
+
+;; When large numbers of nontechnical workers are using a programmable editor, they will be tempted constantly to begin programming in the course of their day-to-day lives. This should contribute greatly to computer literacy, especially because many of the people thus exposed will be secretaries taught by society that they are incapable of doing mathematics, and unable to imagine for a moment that they can learn to program. But that won't stop them from learning it if they don't know that it is programming that they are learning!
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+
+(require 'julia-mode)
+(defun my-julia-mode-hooks ()
+  (require 'julia-shell-mode))
+(add-hook 'julia-mode-hook 'my-julia-mode-hooks)
+(define-key julia-mode-map (kbd "C-c C-c") 'julia-shell-run-region-or-line)
+(define-key julia-mode-map (kbd "C-c C-s") 'julia-shell-save-and-go)
+
 
 (provide 'init)
 ;;; init.el ends here

@@ -4,19 +4,32 @@
 (setq mc/cmds-to-run-for-all
       '(
 	LaTeX-babel-insert-hyphen
+	LaTeX-insert-left-brace
 	TeX-insert-backslash
+	TeX-insert-macro
+	TeX-insert-sub-or-superscript
 	c-electric-colon
+	c-electric-delete-forward
+	c-electric-lt-gt
 	c-electric-paren
+	c-electric-semi&comma
+	c-electric-slash
 	c-electric-star
 	c-indent-line-or-region
 	comment-region
+	end-of-visual-line
+	fortran-split-line
 	handle-switch-frame
+	org-cycle
+	org-delete-char
+	org-end-of-line
 	org-force-self-insert
 	org-self-insert-command
+	pdf-sync-forward-search
 	sh-assignment
 	))
 
 (setq mc/cmds-to-run-once
       '(
-	c-electric-semi&comma
+	cmake-ide-compile
 	))
